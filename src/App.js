@@ -15,7 +15,7 @@ function App() {
       <Routes>
           <Route
               element={
-                  <Layout />
+                  <Layout language={language} />
               }
           >
               <Route

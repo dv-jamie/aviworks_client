@@ -1,4 +1,8 @@
 :root {
+	/* size */
+	--max-width: 120rem;
+
+	/* color */
 	--primary-blue-100: #186CE8;
 	--primary-blue-80: #4689ED;
 	--primary-blue-55: #80AEF3;
@@ -10,8 +14,10 @@
 	--gray-55: #758294;
 	--gray-30: #B4BBC5;
 	--gray-5: #F2F3F5;
-}
 
+	/* box-shadow */
+	--box-shadow: rgba(4, 27, 60, .1);
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,13 +35,10 @@ textarea {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
+	color: var(--gray-100);
 	vertical-align: baseline;
 	box-sizing: border-box;
-}
-html {
-    font-size: 62.5%;
 }
 a {
 	color: inherit;
@@ -47,10 +50,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+    font-size: 62.5%;
+}
 body * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-    font-size: 1.6rem;
+	font-size: 1.6rem;
 }
 ol, ul, li {
 	list-style: none;

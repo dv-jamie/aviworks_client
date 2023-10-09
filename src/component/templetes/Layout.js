@@ -1,12 +1,11 @@
 import { Outlet } from "react-router-dom";
 import Header from "../molecules/Header";
-import styles from './Layout.module.css'
 import Footer from "../molecules/Footer";
 
-function Layout() {
+function Layout({ language }) {
     return (
-        <div className={styles.container}>
-            <Header />
+        <div>
+            <Header language={language} />
             <Outlet />
             <Footer />
         </div>

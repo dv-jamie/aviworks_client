@@ -4,7 +4,7 @@ import { ReactComponent as Logo } from '../../assets/logo.svg'
 import Gnb from './Gnb';
 import styles from "./Header.module.css";
 
-function Header() {
+function Header({ language }) {
     return (
         <header className={styles.header}>
             <div className={styles.header_inner}>
@@ -16,12 +16,22 @@ function Header() {
 
                 <div className={styles.selectbox_language}>
                     <Internet />
-                    <span>한국어</span>
+                    <span>{ language }</span>
                     <ArrowDown />
                     
                     <ul className={styles.language_list}>
-                        <li className={styles.kor}>한국어</li>
-                        <li className={styles.eng}>English</li>
+                        <li
+                            className={language === "한국어"
+                                ? styles.selected
+                                : ""
+                            }
+                        >한국어</li>
+                        <li
+                            className={language === "English"
+                                ? styles.selected
+                                : ""
+                            }
+                        >English</li>
                     </ul>
                 </div>
             </div>
