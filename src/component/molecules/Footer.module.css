@@ -1,0 +1,33 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    gap: 3.2rem;
+    width: 100vw;
+    padding: 3.2rem 0;
+    background: var(--navy-100);
+    text-align: center;
+}
+.footer li,
+.footer span,
+.footer p {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.list_wrap {
+    margin-bottom: 3.2rem;
+}
+.list_wrap li:not(:last-of-type) {
+    margin-bottom: 0.4rem;
+}
+.list_wrap li:first-of-type {
+    font-weight: bold;
+}
+.list_wrap span:first-of-type {
+    margin-right: 0.4rem;
+}
+
+.footer .copyright {
+    font-size: 1.2rem;
+    opacity: .4;
+}
