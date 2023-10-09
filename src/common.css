@@ -94,5 +94,9 @@ table {
 */
 .heading-1 {
 	font-weight: 700;
+	font-size: 6.4rem;
+}
+.heading-2 {
+	font-weight: 700;
 	font-size: 4.8rem;
 }

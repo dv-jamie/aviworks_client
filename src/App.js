@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Layout from "./component/templetes/Layout";
+import Layout from "./component/templates/Layout";
 import Home from "./page/Home";
 import Product from "./page/Product";
 import Contact from "./page/Contact";
