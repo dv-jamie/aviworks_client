@@ -1,3 +1,6 @@
+/*
+* Variable
+*/
 :root {
 	/* size */
 	--max-width: 120rem;
@@ -18,6 +21,10 @@
 	/* box-shadow */
 	--box-shadow: rgba(4, 27, 60, .1);
 }
+
+/*
+* Initialize
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -74,6 +81,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+* Scrollbar Style
+*/
 ::-webkit-scrollbar {
 	display: none;
+}
+
+/*
+* Heading style
+*/
+.heading-1 {
+	font-weight: 700;
+	font-size: 4.8rem;
 }
