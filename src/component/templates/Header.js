@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowDown, Internet } from '../../assets/icons';
 import { ReactComponent as Logo } from '../../assets/logo.svg'
-import Gnb from './Gnb';
+import Gnb from '../molecules/Gnb';
 import styles from "./Header.module.css";
 
 function Header({ language }) {

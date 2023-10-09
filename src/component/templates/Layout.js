@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Header from "../molecules/Header";
-import Footer from "../molecules/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Layout({ language }) {
     return (
