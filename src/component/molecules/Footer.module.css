@@ -21,7 +21,7 @@
     margin-bottom: 0.4rem;
 }
 .list_wrap li:first-of-type {
-    font-weight: bold;
+    font-weight: 700;
 }
 .list_wrap span:first-of-type {
     margin-right: 0.4rem;
