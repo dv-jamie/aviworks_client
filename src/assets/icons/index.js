@@ -1,0 +1,17 @@
+import { ReactComponent as ArrowDown } from './arrow-down.svg'
+import { ReactComponent as ChartUp } from './chart-up.svg'
+import { ReactComponent as Coin } from './coin.svg'
+import { ReactComponent as EasyHand } from './easy-hand.svg'
+import { ReactComponent as GolfPlayer } from './golf-player.svg'
+import { ReactComponent as Internet } from './internet.svg'
+import { ReactComponent as Play } from './play.svg'
+
+export {
+    ArrowDown,
+    ChartUp,
+    Coin,
+    EasyHand,
+    GolfPlayer,
+    Internet,
+    Play
+}
