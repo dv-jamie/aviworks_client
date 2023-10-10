@@ -1,0 +1,440 @@
+.container section {
+    padding: 24rem 0;
+}
+.container section > .content_wrap {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.container h1 {
+    display: none;
+}
+
+/*
+* Intro Section
+*/
+.intro {
+    position: relative;
+    background: url('../assets/images/golf-ball.jpg') center no-repeat;
+    background-size: cover;
+}
+.intro::before {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--gray-100);
+    opacity: .6;
+}
+.intro h2 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+
+/*
+* Mission Section
+*/
+.mission .content_wrap {
+    display: flex;
+    gap: 5.6rem
+}
+.mission .title_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mission .title_wrap p,
+.mission .title_wrap p span {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.mission .title_wrap p span {
+    font-weight: 700;
+}
+.mission .keyword_wrap {
+    padding: 1.6rem 0;
+}
+.mission .keyword_wrap li {
+    padding: 1.6rem 0;
+    font-weight: 900;
+    font-size: 6.4rem;
+}
+.mission .keyword_wrap li:nth-of-type(1) {
+    color: var(--primary-blue-55);
+}
+.mission .keyword_wrap li:nth-of-type(2) {
+    color: var(--primary-blue-80);
+}
+.mission .keyword_wrap li:nth-of-type(3) {
+    color: var(--primary-blue-100);
+}
+
+.mission .image_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 52rem;
+    gap: 0.4rem;
+    width: 25.8rem;
+}
+
+.mission .image {
+    position: relative;
+    width: 25.8rem;
+    height: 21.8rem;
+    overflow: hidden;
+}
+.mission .image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--navy-100);
+    opacity: .2;
+}
+.mission .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*
+* Goal Section
+*/
+.goal {
+    position: relative;
+    background: url('../assets/images/basketball-peole.jpg') center no-repeat;
+    background-size: cover;
+}
+.goal::before {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--gray-100);
+    opacity: .6;
+}
+.goal h2,
+.goal p {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+.goal p:first-of-type {
+    margin: 4.8rem 0;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+.goal p:last-of-type {
+    font-weight: 700;
+}
+
+/*
+* Way Section
+*/
+.way {
+    background: var(--primary-blue-5);
+}
+.way .title_wrap {
+    text-align: center;
+}
+.way .title_wrap h2 {
+    margin: 1.6rem 0 16rem;
+}
+
+.way .board_wrap .caption {
+    padding: 3.2rem 0;
+    border-radius: 1.2rem;
+    background: var(--primary-blue-100);
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.2rem;
+    color: #fff;
+}
+.way .board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.2rem;
+    margin-top: 4.8rem;
+}
+.way .board > li {
+    position: relative;
+    width: 57.6rem;
+    height: 35rem;
+    padding: 3.2rem 2.4rem;
+    border-radius: 1.2rem;
+    background: #fff;
+}
+.way .board label {
+    font-weight: 900;
+    font-size: 3.2rem;
+    color: var(--primary-blue-100);
+}
+.way .board .detail_wrap {
+    position: relative;
+    z-index: 1;
+    margin-top: 3.2rem;
+}
+.way .board .detail_wrap li:not(:last-of-type) {
+    margin-bottom: 1.6rem
+}
+.way .board .detail_wrap li {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.way .board .detail_wrap li::before {
+    content: "";
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0.3rem 1.2rem 0 0;
+    border-radius: 50%;
+    background: var(--gray-100);
+}
+.way .board img {
+    position: absolute;
+    bottom: 1.6rem;
+    right: 1.6rem;
+    width: 24rem;
+}
+
+/*
+* Technology Section
+*/
+.technology .keyword_wrap,
+.technology .title_wrap {
+    text-align: center;
+}
+.technology .keyword_wrap li:not(:last-of-type) {
+    margin-bottom: 2.8rem;
+}
+.technology .keyword_wrap li {
+    font-size: 3.2rem;
+    color: var(--primary-blue-100);
+}
+
+.technology .title_wrap {
+    margin: 16rem 0;
+}
+
+.technology .list > li:not(:last-of-type) {
+    margin-bottom: 6.4rem;
+}
+.technology .list > li {
+    display: flex;
+    align-items: center;
+    gap: 6.4rem;
+    padding: 4.8rem;
+    border-radius: 1.2rem;
+    background: var(--primary-blue-5);
+}
+.technology .list .image {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+.technology .list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.technology .list label {
+    font-weight: 900;
+    font-size: 3.2rem;
+    color: var(--primary-blue-100);
+}
+.technology .detail_wrap {
+    margin-top: 3.2rem;
+
+}
+.technology .detail_wrap li:not(:last-of-type) {
+    margin-bottom: 1.6rem;
+}
+.technology .detail_wrap li {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 0 2.4rem;
+}
+.technology .detail_wrap li::before {
+    content: "";
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 50%;
+    background: var(--gray-100);
+}
+
+/*
+* Production Section
+*/
+.production {
+    position: relative;
+    background: var(--navy-100);
+    overflow: hidden;
+}
+.production svg {
+    position: absolute;
+    top: 0rem;
+    left: 5rem;
+}
+.production svg g {
+    width: 57.6rem;
+    height: 49.2rem;
+}
+
+.production .title_wrap h2,
+.production .title_wrap h3 {
+    text-align: right;
+    color: #fff;;
+}
+
+.production .product_list {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    margin-top: 16rem;
+}
+.production .product_list li {
+    width: 36rem;
+    padding: 3.2rem 2.4rem;
+    border-radius: 1.2rem;
+    background: #fff;
+}
+.production .product_list .image_wrap {
+    height: 27rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+.production .product_list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.production .product_list .content_wrap {
+    margin-top: 2.4rem;
+    text-align:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     center;
+}
+.production .product_list .content_wrap div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7.2rem;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: var(--navy-100);
+}
+.production .product_list p {
+    margin-top: 1.6rem;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.production .product_list button {
+    width: 100%;
+    margin-top: 2.4rem;
+    outline: none;
+    border: none;
+    background: none;
+    text-align: right;
+    font-weight: 700;
+    color: var(--navy-100);
+}
+
+/*
+* History Section
+*/
+.history .title_wrap {
+    text-align: center;
+}
+.history .board {
+    display: flex;
+    gap: 4.8rem;
+    margin-top: 16rem;
+}
+.history .image_wrap {
+    width: 57.6rem;
+}
+.history .image_wrap .row_2 {
+    display: flex;
+}
+.history .image {
+    height: 24rem;
+    overflow: hidden;
+}
+.history img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.history .year {
+    margin-bottom: 3.2rem;
+    padding-bottom: 3.2rem;
+    border-bottom: 2px solid var(--primary-blue-55);
+    font-weight: 900;
+    font-size: 4rem;
+    color: var(--primary-blue-100);
+}
+.history .month li {
+    display: flex;
+    gap: 3.2rem;
+}
+.history .month li:not(:last-of-type) {
+    margin-bottom: 1.6rem;
+}
+.history .month label,
+.history .month p {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.history label {
+    display: inline-block;
+    width: 5.6rem;
+    font-weight: 700;
+    color: var(--primary-blue-100);
+}
+
+/*
+* News Section
+*/
+.news {
+    background: var(--primary-blue-5);
+}
+.news h2 {
+    text-align: center;
+}
+.news .board {
+    margin-top: 16rem;
+    padding: 2.4rem 4.8rem;
+    border-radius: 3.2rem;
+    background: #fff;
+}
+.news .board li {
+    padding: 3.2rem 0;
+}
+.news .board li:first-of-type {
+    border-bottom: 1px solid var(--primary-blue-55);
+}
+.news .board p {
+    font-size: 2rem;
+}
+.news .board p:first-of-type {
+    margin-bottom: 1.6rem;
+    font-weight: 700;
+    color: var(--primary-blue-100);
+}
