@@ -1,0 +1,394 @@
+.container section {
+    padding: 24rem 0;
+}
+.container section > .content_wrap {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.container h1 {
+    display: none;
+}
+
+/*
+* Button (Common)
+*/
+.button {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 1.2rem;
+    background: var(--primary-blue-100);
+    cursor: pointer;
+}
+.button a {
+    display: inline-block;
+    padding: 2.4rem 0;
+    width: 100%;
+}
+.button svg {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.button .button_content_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+.button span {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+}
+
+/*
+* Intro Section (Common)
+*/
+.intro .content_wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 4.8rem;
+}
+.intro .title_wrap {
+    padding: 9.2rem 0;
+}
+.intro .title_wrap h2 {
+    position: relative;
+    font-weight: 900;
+    font-size: 6rem;
+    list-style: 1.2;
+}
+.intro .title_wrap h2::before {
+    content: "";
+    position: absolute;
+    top: -3.2rem;
+    left: 0;
+    width: 4.8rem;
+    height: 0.6rem;
+    background: var(--gray-100);
+}
+.intro .title_wrap h3 {
+    margin-top: 1.6rem;
+    padding: 1.6rem 0;
+    font-size: 2.4rem;
+}
+
+.intro .image_wrap {
+    width: 57.6rem;
+    padding: 3.8rem 3rem;
+    border-radius: 3.2rem;
+    background: var(--primary-blue-5);
+    overflow: hidden;
+}
+.intro img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*
+* Summary Section (Common)
+*/
+.summary .content_wrap {
+    display: flex;
+    justify-content: center;
+    gap: 4.8rem;
+}
+
+.summary .detail_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 57.6rem;
+}
+.summary .detail_wrap ul {
+    border-left: 2px solid var(--primary-blue-100);
+}
+.summary .detail_wrap li {
+    padding: 0 3.2rem 3.2rem 3.2rem;
+}
+.summary .detail_wrap .title {
+    position: relative;;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    color: var(--primary-blue-100);
+}
+.summary .detail_wrap .title::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -3.9rem;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: var(--primary-blue-100);
+}
+.summary .detail_wrap p {
+    margin-top: 1.2rem;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/********** Swing Tracker ***********/
+/*
+* Swing Tracker : Intro Tracker Section
+*/
+.swing_tracker .image_wrap {
+    padding: 0;
+}
+
+.swing_tracker .summary .image {
+    width: 57.6rem;
+    height: 26.8rem;
+    overflow: hidden;
+}
+.swing_tracker .summary .image:first-of-type {
+    margin-bottom: 0.4rem;
+}
+.swing_tracker .summary img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*
+* Swing Tracker : Data Section
+*/
+.swing_tracker .data {
+    position: relative;
+    background: url('../assets/images/star.jpg') center no-repeat;
+    background-size: cover;
+}
+.swing_tracker .data::before {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--gray-100);
+    opacity: .6;
+}
+.swing_tracker .data .title_wrap {
+    position: relative;
+    z-index: 1;
+}
+.swing_tracker .data h2,
+.swing_tracker .data h3 {
+    color: #fff;
+    text-align: center;
+}
+.swing_tracker .data h2 {
+    margin-bottom: 3.2rem;
+}
+
+.swing_tracker .data .vertical_line {
+    position: relative;
+    z-index: 1;
+    width: 0.2rem;
+    height: 16rem;
+    margin: 12rem auto;
+    background: #fff;
+}
+
+.swing_tracker .data .detail_wrap {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    gap: 4.8rem;
+}
+.swing_tracker .data .detail_wrap span,
+.swing_tracker .data .detail_wrap p {
+    color: #fff;
+}
+.swing_tracker .data .number_wrap {
+    text-align: center;
+}
+.swing_tracker .data .number {
+    margin-right: 0.4rem;
+    font-weight: 900;
+    font-size: 9.6rem;
+    letter-spacing: -0.05rem;
+}
+.swing_tracker .data .unit {
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+.swing_tracker .data p {
+    margin-top: 3.2rem;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/*
+* Swing Tracker : Description Section
+*/
+.description {
+    background: var(--primary-blue-5);
+}
+.description .title_wrap {
+    text-align: center;
+}
+.description ul {
+    margin-top: 16rem;
+}
+.description li {
+    display: flex;
+    gap: 4.8rem;
+    align-items: flex-end;
+}
+.description li:not(:last-of-type) {
+    margin-bottom: 12rem;
+}
+.description li .image_wrap {
+    width: 57.6rem;
+    padding: 2.4rem 0;
+    overflow: hidden;
+}
+.description li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.description .text_wrap {
+    width: 57.6rem;
+    padding: 4.8rem;
+}
+.description .text_wrap .title {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+.description .text_wrap p {
+    margin-top: 1.6rem;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.description .text_wrap .caption {
+    color: var(--primary-blue-100);
+}
+.description .text_wrap:nth-of-type(1) .caption::after {
+    content: "";
+    display: inline-block;
+    margin: 0 0 0.1rem 1.2rem;
+    border-top: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid transparent; 
+    border-left: 1.2rem solid var(--primary-blue-100); 
+}
+.description .text_wrap:nth-of-type(2) .caption::before {
+    content: "";
+    display: inline-block;
+    margin: 0 1.2rem 0.1rem 0;
+    border-top: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid transparent; 
+    border-right: 1.2rem solid var(--primary-blue-100); 
+}
+
+/********** A-scout ***********/
+.a_scount .content_wrap {
+    display: flex;
+}
+
+/*
+* A-scout : Summary Section
+*/
+.a_scount .summary {
+    background: var(--primary-blue-5);
+}
+
+.a_scount .summary .image_wrap {
+    display: flex;
+    gap: 0.8rem;
+    overflow: hidden;
+}
+.a_scount .summary  .image_wrap .column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 28.4rem;
+}
+.a_scount .summary  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a_scount .summary .button_wrap {
+    display: flex;
+    gap: 0.8rem;
+}
+
+
+/********** Caddie-Robot Tracker ***********/
+/*
+* Caddie-Robot : Intro Section
+*/
+.caddie_robot .keyword_wrap span {
+    display: inline-block;
+    margin: 3.2rem 1rem 0 0;
+    padding: 0.8rem 1.6rem;
+    border-radius: 10rem;
+    background: var(--primary-blue-100);
+    color: #fff;
+}
+.caddie_robot .keyword_wrap span:last-of-type {
+    margin-right: 0;
+}
+
+/*
+* Caddie-Robot : Value Section
+*/
+.value {
+    background: var(--primary-blue-5);
+}
+
+.value .title_wrap h2,
+.value .title_wrap h3 {
+    text-align: center;
+}
+.value .title_wrap h3 {
+    margin-top: 1.6rem;
+}
+
+.value .value_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 4.8rem;
+    margin-top: 16rem;
+}
+.value .value_list .title_wrap div {
+    font-weight: 700;
+    color: var(--primary-blue-100);
+}
+.value .value_list > li {
+    height: 44rem;
+    padding: 3.2rem 2.4rem;
+    border-radius: 3.2rem 0 3.2rem 0;
+    background: #fff;
+}
+.value .value_list .title_wrap div:first-of-type {
+    font-size: 3.6rem;
+}
+.value .value_list .title_wrap div:last-of-type {
+    margin-top: 0.4rem;
+    font-size: 2.4rem;
+}
+.value .detail_list {
+    margin-top: 3.2rem;
+}
+.value .detail_list li {
+    margin: 0 0 1.6rem 2rem;
+    font-size: 2.2rem;
+    list-style: disc;
+}
+.value .detail_list li:last-of-type {
+    margin-bottom: 0;
+}
+.value .detail_list li::marker {
+    font-size: 1.8rem;
+}
