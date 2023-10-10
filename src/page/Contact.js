@@ -24,21 +24,21 @@ function Contact() {
                     <div className={styles.table_wrap}>
                         <ul>
                             <li className={styles.table_row}>
-                                <label>회사&#40;소속&#41;</label>
+                                <label>회사(소속)</label>
                                 <div className={styles.input_box}>
                                     <input placeholder='에이비웍스' />
                                 </div>
                             </li>
 
                             <li className={styles.table_row}>
-                                <label>이름&#40;직위&#41;</label>
+                                <label>이름(직위)</label>
                                 <div className={styles.input_box}>
                                     <input placeholder='홍길동 팀장' />
                                 </div>
                             </li>
 
                             <li className={styles.table_row}>
-                                <label>연락처&#41;</label>
+                                <label>연락처)</label>
                                 <div className={styles.input_box}>
                                     <input placeholder='000-0000-0000' />
                                 </div>
@@ -76,7 +76,7 @@ function Contact() {
                     <h2 className="heading-2">오시는 길</h2>
 
                     <ul className={styles.info_wrap}>
-                        <li className={styles.address}>경기도 성남시 중원구 양현로 405번길 7 &#40;여수동&#41;, 신야탑푸르지오시티2, 801호</li>
+                        <li className={styles.address}>경기도 성남시 중원구 양현로 405번길 7 (여수동), 신야탑푸르지오시티2, 801호</li>
                         <li>
                             <ul className={styles.contact_number}>
                                 <li>

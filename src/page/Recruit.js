@@ -28,7 +28,7 @@ function Recruit() {
                             <label>AI/ML</label>
                             <ul className={styles.detail_wrap}>
                                 <li>Algorithm</li>
-                                <li>Application &#40;2D/3D Motion Analysis&#41;</li>
+                                <li>Application (2D/3D Motion Analysis)</li>
                             </ul>
                         </li>
                         <li>
@@ -48,7 +48,7 @@ function Recruit() {
                                 Application
                             </label>
                             <ul className={styles.detail_wrap}>
-                                <li>Ball Tracking &#40;Ball detection & Analysis&#41;</li>
+                                <li>Ball Tracking (Ball detection & Analysis)</li>
                                 <li>3D Stereo Vision, Doppler Radar</li>
                                 <li>Launch Monitor</li>
                                 <li>Golf Electric Trolley</li>

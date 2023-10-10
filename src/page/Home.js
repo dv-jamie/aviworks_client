@@ -6,7 +6,7 @@ import styles from './Home.module.css'
 function Home() {
     return (
         <div className={styles.container}>
-            <h1>contact page</h1>
+            <h1>home page</h1>
 
             {/* Intro Section */}
             <section className={styles.intro}>
@@ -125,7 +125,7 @@ function Home() {
                                     <li>건강 증진 위한 대중 스포츠화</li>
                                     <li>
                                         셀프라운딩, 워킹 골프 문화 구축<br />
-                                        &#40;No Caddie, No Cart&#41;
+                                        (No Caddie, No Cart)
                                     </li>
                                 </ul>
                                 <img src={GolfCulture} alt="골프 문화 일러스트" />
@@ -331,7 +331,7 @@ function Home() {
                                     <p>
                                         4차 산업 혁명을 이끄는 중견ㆍ중소 기업<br />
                                         4IR Awards 스타트업 부문 대상<br />
-                                        &#40;주최자 : 머니투데이&#41;
+                                        (주최자 : 머니투데이)
                                     </p>
                                 </li>
                             </ul>
@@ -353,7 +353,7 @@ function Home() {
                         </li>
                         <li>
                             <p>주식회사 에이비웍스</p>
-                            <p>4차 산업 혁명을 이끄는 중견〮중소 기업 ‘4IR Awards’ 스타트업 부문 대상 &#40;주최자 : 머니투데이&#41;</p>
+                            <p>4차 산업 혁명을 이끄는 중견〮중소 기업 ‘4IR Awards’ 스타트업 부문 대상 (주최자 : 머니투데이)</p>
                         </li>
                     </ul>
                 </div>
