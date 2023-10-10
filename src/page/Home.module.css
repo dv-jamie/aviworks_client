@@ -189,18 +189,14 @@
     margin-bottom: 1.6rem
 }
 .way .board .detail_wrap li {
-    display: flex;
+    margin-left: 2rem;
     align-items: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    list-style: disc;
 }
-.way .board .detail_wrap li::before {
-    content: "";
+.way .board .detail_wrap li::marker {
     display: inline-block;
-    width: 0.5rem;
-    height: 0.5rem;
-    margin: 0.3rem 1.2rem 0 0;
-    border-radius: 50%;
-    background: var(--gray-100);
+    font-size: 1.8rem;
 }
 .way .board img {
     position: absolute;
@@ -263,19 +259,13 @@
     margin-bottom: 1.6rem;
 }
 .technology .detail_wrap li {
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-    padding: 0 2.4rem;
+    margin-left: 2.2rem;
+    font-size: 2rem;
+    list-style: disc;
 }
-.technology .detail_wrap li::before {
-    content: "";
+.technology .detail_wrap li::marker {
     display: inline-block;
-    width: 0.5rem;
-    height: 0.5rem;
-    margin-top: 0.3rem;
-    border-radius: 50%;
-    background: var(--gray-100);
+    font-size: 1.8rem;
 }
 
 /*
@@ -438,3 +428,7 @@
     font-weight: 700;
     color: var(--primary-blue-100);
 }
+
+/*
+* Value Section
+*/
