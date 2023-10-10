@@ -8,13 +8,11 @@ function Contact() {
 
             {/* Intro Section */}
             <section className={styles.intro}>
-                <div className={styles.content_wrap}>
-                    <h2 className="heading-1">
-                        에이비웍스와 함께
-                        <br />
-                        스포츠산업의 혁신을 만들어보세요
-                    </h2>
-                </div>
+                <h2 className="heading-1">
+                    에이비웍스와 함께
+                    <br />
+                    스포츠산업의 혁신을 만들어보세요
+                </h2>
             </section>
             {/* Intro Section 끝 */}
 
