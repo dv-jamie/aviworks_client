@@ -1,5 +1,10 @@
 .header {
+    top: 0;
+    position: fixed;
+    z-index: 100;
     padding: 0.8rem;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.9);
 }
 .header_inner {
     display: flex;
@@ -10,6 +15,8 @@
 }
 
 .selectbox_language {
+    position: fixed;
+    top: 0;
     display: flex;
     gap: 0.4rem;
     align-items: center;
@@ -37,4 +44,14 @@
 }
 .selectbox_language .selected {
     color: var(--gray-100);
+}
+
+.visible {
+    top: 0;
+    transition: top 0.4s ease-out;
+}
+
+.hidden {
+    top: -80px;
+    transition: top 0.4s ease-out;
 }
