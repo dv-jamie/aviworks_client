@@ -85,9 +85,9 @@ table {
 /*
 * Scrollbar Style
 */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
 	display: none;
-}
+} */
 
 /*
 * Heading style
