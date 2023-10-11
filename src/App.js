@@ -19,23 +19,23 @@ function App() {
               }
           >
               <Route
-                  path="/"
+                  path={`${process.env.PUBLIC_URL}`}
                   element={<Home />}
               ></Route>
               <Route
-                  path="/product"
+                  path={`${process.env.PUBLIC_URL}/product`}
                   element={<Product />}
-              ></Route>
+                  ></Route>
               <Route
-                  path="/contact"
+                  path={`${process.env.PUBLIC_URL}/contact`}
                   element={<Contact />}
-              ></Route>
+                  ></Route>
               <Route
-                  path="/recruit"
+                  path={`${process.env.PUBLIC_URL}/recruit`}
                   element={<Recruit />}
               ></Route>
 
-              <Route path="*" element={<Navigate to="/" />}></Route>
+              <Route path="*" element={<Navigate to={`${process.env.PUBLIC_URL}`} />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
