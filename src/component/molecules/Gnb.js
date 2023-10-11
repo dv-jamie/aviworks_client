@@ -14,7 +14,7 @@ function Gnb() {
                         : styles.menu
                     }
                 >
-                    <Link to={`${process.env.PUBLIC_URL}`}>AIVIWORKS</Link>
+                    <Link to="/">AIVIWORKS</Link>
                 </li>
                 <li
                     className={pathname ==='/product'
@@ -22,7 +22,7 @@ function Gnb() {
                         : styles.menu
                     }
                 >
-                    <Link to={`${process.env.PUBLIC_URL}/product`}>PRODUCT</Link>
+                    <Link to="/product">PRODUCT</Link>
                 </li>
                 <li
                     className={pathname ==='/contact'
@@ -30,7 +30,7 @@ function Gnb() {
                         : styles.menu
                     }
                 >
-                    <Link to={`${process.env.PUBLIC_URL}/contact`}>CONTACT</Link>
+                    <Link to="/contact">CONTACT</Link>
                 </li>
                 <li
                     className={pathname ==='/recruit'

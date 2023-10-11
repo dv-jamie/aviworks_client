@@ -232,7 +232,7 @@ function Home() {
                                     3D 골프 스윙 분석 서비스
                                 </p>
                                 <button>
-                                    <Link to={`${process.env.PUBLIC_URL}/product`}>자세히 보기 →</Link>
+                                    <Link to="/product">자세히 보기 →</Link>
                                 </button>
                             </div>
                         </li>
@@ -248,7 +248,7 @@ function Home() {
                                     고속/정밀 영상 촬영 카메라
                                 </p>
                                 <button>
-                                    <Link to={`${process.env.PUBLIC_URL}/product`}>자세히 보기 →</Link>
+                                    <Link to="product">자세히 보기 →</Link>
                                 </button>
                             </div>
                         </li>
@@ -267,7 +267,7 @@ function Home() {
                                     캐디 로봇 플랫폼 서비스
                                 </p>
                                 <button>
-                                    <Link to={`${process.env.PUBLIC_URL}/product`}>자세히 보기 →</Link>
+                                    <Link to="product">자세히 보기 →</Link>
                                 </button>
                             </div>
                         </li>

@@ -27,7 +27,7 @@ function Header({ language }) {
     return (
         <header className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
             <div className={styles.header_inner}>
-                <Link to={`${process.env.PUBLIC_URL}`}>
+                <Link to="/">
                     <Logo />
                 </Link>
                 
