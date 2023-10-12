@@ -48,7 +48,6 @@
 .mission .title_wrap {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .mission .title_wrap p,
 .mission .title_wrap p span {
