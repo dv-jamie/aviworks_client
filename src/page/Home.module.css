@@ -3,8 +3,9 @@
 }
 .container section > .content_wrap {
     max-width: var(--max-width);
-    margin: 0 auto;
+    min-width: var(--min-width);
     padding: 0 2rem;
+    margin: 0 auto;
 }
 .container h1 {
     display: none;
@@ -51,7 +52,6 @@
 }
 .mission .title_wrap p,
 .mission .title_wrap p span {
-    font-size: 4rem;
     line-height: 1.5;
 }
 .mission .title_wrap p span {
@@ -63,7 +63,6 @@
 .mission .keyword_wrap li {
     padding: 1.6rem 0;
     font-weight: 900;
-    font-size: 6.4rem;
 }
 .mission .keyword_wrap li:nth-of-type(1) {
     color: var(--primary-blue-55);
@@ -132,7 +131,6 @@
 }
 .goal p:first-of-type {
     margin: 4.8rem 0;
-    font-size: 3.2rem;
     line-height: 1.5;
 }
 .goal p:last-of-type {
@@ -158,7 +156,6 @@
     background: var(--primary-blue-100);
     text-align: center;
     font-weight: 900;
-    font-size: 3.2rem;
     color: #fff;
 }
 .way .board {
@@ -178,7 +175,6 @@
 }
 .way .board label {
     font-weight: 900;
-    font-size: 3.2rem;
     color: var(--primary-blue-100);
 }
 .way .board .detail_wrap {
@@ -191,8 +187,6 @@
 }
 .way .board .detail_wrap li {
     margin-left: 2rem;
-    align-items: center;
-    font-size: 2.2rem;
     list-style: disc;
 }
 .way .board .detail_wrap li::marker {
@@ -203,7 +197,7 @@
     position: absolute;
     bottom: 1.6rem;
     right: 1.6rem;
-    width: 24rem;
+    width: 18rem;
 }
 
 /*
@@ -217,7 +211,6 @@
     margin-bottom: 2.8rem;
 }
 .technology .keyword_wrap li {
-    font-size: 3.2rem;
     color: var(--primary-blue-100);
 }
 
@@ -250,7 +243,6 @@
 }
 .technology .list label {
     font-weight: 900;
-    font-size: 3.2rem;
     color: var(--primary-blue-100);
 }
 .technology .detail_wrap {
@@ -261,7 +253,6 @@
 }
 .technology .detail_wrap li {
     margin-left: 2.2rem;
-    font-size: 2rem;
     list-style: disc;
 }
 .technology .detail_wrap li::marker {
@@ -328,12 +319,10 @@
     align-items: center;
     height: 7.2rem;
     font-weight: 700;
-    font-size: 3.2rem;
     color: var(--navy-100);
 }
 .production .product_list p {
     margin-top: 1.6rem;
-    font-size: 2rem;
     line-height: 1.5;
 }
 .production .product_list button {
@@ -381,7 +370,6 @@
     padding-bottom: 3.2rem;
     border-bottom: 2px solid var(--primary-blue-55);
     font-weight: 900;
-    font-size: 4rem;
     color: var(--primary-blue-100);
 }
 .history .month li {
@@ -393,7 +381,6 @@
 }
 .history .month label,
 .history .month p {
-    font-size: 2rem;
     line-height: 1.5;
 }
 .history label {
@@ -423,9 +410,6 @@
 }
 .news .board li:first-of-type {
     border-bottom: 1px solid var(--primary-blue-55);
-}
-.news .board p {
-    font-size: 2rem;
 }
 .news .board p:first-of-type {
     margin-bottom: 1.6rem;

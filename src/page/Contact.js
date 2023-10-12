@@ -38,7 +38,7 @@ function Contact() {
                             </li>
 
                             <li className={styles.table_row}>
-                                <label>연락처)</label>
+                                <label>연락처</label>
                                 <div className={styles.input_box}>
                                     <input placeholder='000-0000-0000' />
                                 </div>

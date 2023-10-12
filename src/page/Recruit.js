@@ -25,45 +25,45 @@ function Recruit() {
 
                     <ul className={styles.board_wrap}>
                         <li>
-                            <label>AI/ML</label>
+                            <label className="heading-4">AI/ML</label>
                             <ul className={styles.detail_wrap}>
                                 <li>Algorithm</li>
                                 <li>Application (2D/3D Motion Analysis)</li>
                             </ul>
                         </li>
                         <li>
-                            <label>
+                            <label className="heading-4">
                                 Computer<br />
                                 Vision
                             </label>
                             <ul className={styles.detail_wrap}>
-                                <li>Image Processing</li>
-                                <li>Object Detection</li>
-                                <li>Image Classification</li>
+                                <li className="body-text-4">Image Processing</li>
+                                <li className="body-text-4">Object Detection</li>
+                                <li className="body-text-4">Image Classification</li>
                             </ul>
                         </li>
                         <li>
-                            <label>
+                            <label className="heading-4">
                                 Golf<br />
                                 Application
                             </label>
                             <ul className={styles.detail_wrap}>
-                                <li>Ball Tracking (Ball detection & Analysis)</li>
-                                <li>3D Stereo Vision, Doppler Radar</li>
-                                <li>Launch Monitor</li>
-                                <li>Golf Electric Trolley</li>
+                                <li className="body-text-4">Ball Tracking (Ball detection & Analysis)</li>
+                                <li className="body-text-4">3D Stereo Vision, Doppler Radar</li>
+                                <li className="body-text-4">Launch Monitor</li>
+                                <li className="body-text-4">Golf Electric Trolley</li>
                             </ul>
                         </li>
                         <li>
-                            <label>
+                            <label className="heading-4">
                                 Embedded<br />
                                 Solution
                             </label>
                             <ul className={styles.detail_wrap}>
-                                <li>Various AP, MCU, DSP Solution</li>
-                                <li>RTOS, Linux Kernel, Device</li>
-                                <li>Driver, System BSP, Network Application</li>
-                                <li>Various Solution with FPGA</li>
+                                <li className="body-text-4">Various AP, MCU, DSP Solution</li>
+                                <li className="body-text-4">RTOS, Linux Kernel, Device</li>
+                                <li className="body-text-4">Driver, System BSP, Network Application</li>
+                                <li className="body-text-4">Various Solution with FPGA</li>
                             </ul>
                         </li>
                     </ul>
