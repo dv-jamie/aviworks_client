@@ -93,7 +93,7 @@ table {
 /*
 * Heading style
 */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 102.4rem) {
 	.heading-1 {
 		font-weight: 800;
 		font-size: 6.4rem;
@@ -141,7 +141,7 @@ table {
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 76.8rem) and (max-width: 102.3rem) {
 	.heading-1 {
 		font-weight: 800;
 		font-size: 4.8rem;
@@ -192,7 +192,7 @@ table {
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 76.7rem) {
 	.heading-1 {
 		font-weight: 800;
 		font-size: 3.2rem;
