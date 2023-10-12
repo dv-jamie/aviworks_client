@@ -5,6 +5,11 @@
     background: var(--navy-100);
     text-align: center;
 }
+.footer_inner {
+    max-width: var(--max-wdith);
+    min-width: var(--min-wdith);
+    padding: 0 2rem;
+}
 .footer li,
 .footer span,
 .footer p {
