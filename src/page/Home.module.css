@@ -229,6 +229,7 @@
 }
 .technology .list > li {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 6.4rem;
     padding: 4.8rem;
@@ -253,7 +254,6 @@
 }
 .technology .detail_wrap {
     margin-top: 3.2rem;
-
 }
 .technology .detail_wrap li:not(:last-of-type) {
     margin-bottom: 1.6rem;
