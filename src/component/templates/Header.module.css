@@ -48,12 +48,21 @@
     color: var(--gray-100);
 }
 
-.visible {
+/*
+* toggle visible
+*/
+header.visible {
     top: 0;
     transition: top 0.4s ease-out;
 }
-
-.hidden {
+header.hidden {
     top: -8rem;
     transition: top 0.4s ease-out;
+}
+
+div.visible {
+    display: block;
+}
+div.hidden {
+    display: none;
 }

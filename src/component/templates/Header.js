@@ -8,6 +8,7 @@ import styles from "./Header.module.css";
 function Header({ language }) {
     const [prevScrollTop, setPrevScrollTop] = useState(window.scrollY)
     const [visible, setVisible] = useState(true)
+    const [device, setDevice] = useState("")
 
     useEffect(()=> {
         const handleScroll = () => {
@@ -24,6 +25,20 @@ function Header({ language }) {
         })
     })
 
+    useEffect(()=> {
+        const handleResize = () => {
+           let innerWidth = window.innerWidth
+           
+           setDevice(innerWidth > 768 ? "PC" : "MOBILE");
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return(() => {
+           window.removeEventListener("resize", handleResize);
+        })
+    })
+
     return (
         <header className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
             <div className={styles.header_inner}>
@@ -31,9 +46,9 @@ function Header({ language }) {
                     <Logo />
                 </Link>
                 
-                <Gnb />
+                <Gnb language={language} device={device} />
 
-                <div className={styles.selectbox_language}>
+                <div className={`${styles.selectbox_language} ${device === "PC" ? styles.visible : styles.hidden}`}>
                     <Internet />
                     <span>{ language }</span>
                     <ArrowDown />

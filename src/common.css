@@ -84,11 +84,11 @@ table {
 }
 
 /*
-* Scrollbar Style
+* Scroll 막기
 */
-/* ::-webkit-scrollbar {
-	display: none;
-} */
+.scroll_disabled {
+    overflow: hidden;
+}
 
 /*
 * Heading style
