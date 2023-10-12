@@ -1,19 +1,30 @@
 import { Link, useLocation } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./Gnb.module.css";
 
 function Gnb({ language, device }) {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
-    const location = useLocation()
-    const pathname = location.pathname
+    const { pathname } = useLocation()
+    const menuRef = useRef(null)
     const menuIcon = isMenuOpen ? "close" : "menu"
 
-    const clickMenuIcon = (e) => {
-        e.currentTarget.nextSibling.classList.toggle(`${styles.visible}`)
-        document.body.classList.toggle("scroll_disabled")
-
-        setIsMenuOpen(isMenuOpen ? false : true)
+    const clickMenuIcon = () => {
+        if(isMenuOpen) {
+            menuRef.current.classList.remove(`${styles.visible}`)
+            document.body.classList.remove("scroll_disabled")
+            setIsMenuOpen(false)
+        } else {
+            menuRef.current.classList.add(`${styles.visible}`)
+            document.body.classList.add("scroll_disabled")
+            setIsMenuOpen(true)
+        }
     }
+
+    useEffect(() => {
+        menuRef.current.classList.remove(`${styles.visible}`)
+        document.body.classList.remove("scroll_disabled")
+        setIsMenuOpen(false)
+    }, [pathname])
 
     return (
         <nav className={styles.gnb}>
@@ -59,7 +70,7 @@ function Gnb({ language, device }) {
                         onClick={clickMenuIcon}
                     >{menuIcon}</span>
 
-                    <ul className={styles.gnb_mobile}>
+                    <ul className={styles.gnb_mobile} ref={menuRef}>
                         <li
                             className={pathname ==='/'
                                 ? `${styles.menu} ${styles.selected}`
