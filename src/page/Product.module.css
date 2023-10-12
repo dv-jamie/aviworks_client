@@ -46,6 +46,7 @@
 */
 .intro .content_wrap {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 4.8rem;
 }
@@ -91,6 +92,7 @@
 */
 .summary .content_wrap {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 4.8rem;
 }
@@ -357,9 +359,13 @@
 
 .value .value_list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 4.8rem;
     margin-top: 16rem;
+}
+.value .value_list > li {
+    flex-basis: 36.8rem;
 }
 .value .value_list .title_wrap div {
     font-weight: 700;
