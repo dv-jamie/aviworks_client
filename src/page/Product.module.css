@@ -251,7 +251,7 @@
 }
 .description .text_wrap {
     width: 57.6rem;
-    padding: 4.8rem;
+    padding: 1.6rem;
 }
 .description .text_wrap .title {
     font-weight: 700;
@@ -381,4 +381,17 @@
 }
 .value .detail_list li::marker {
     font-size: 1.8rem;
+}
+
+@media screen and (max-width: 76.7rem) {
+    .description .text_wrap:nth-of-type(2) .caption::before {
+        border-top: 0.5rem solid transparent;
+        border-bottom: 0.5rem solid transparent; 
+        border-right: 0.9rem solid var(--primary-blue-100); 
+    }
+    .description .text_wrap:nth-of-type(1) .caption::after {
+        border-top: 0.5rem solid transparent;
+        border-bottom: 0.5rem solid transparent; 
+        border-left: 0.9rem solid var(--primary-blue-100); 
+    }
 }

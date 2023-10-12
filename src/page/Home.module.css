@@ -264,17 +264,24 @@
 */
 .production {
     position: relative;
+    z-index: 1;
     background: var(--navy-100);
     overflow: hidden;
 }
 .production svg {
     position: absolute;
-    top: 0rem;
+    z-index: -1;
+    top: -5rem;
     left: 5rem;
 }
-.production svg g {
-    width: 57.6rem;
-    height: 49.2rem;
+@media screen and (max-width: 76.7rem) {
+    .production svg {
+        left: -12rem;
+    }
+    .production svg {
+        width: 57.6rem;
+        height: 49.2rem;
+    }
 }
 
 .production .title_wrap h2,
