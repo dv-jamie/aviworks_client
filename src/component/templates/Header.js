@@ -50,7 +50,7 @@ function Header({ language }) {
 
                 <div className={`${styles.selectbox_language} ${device === "PC" ? styles.visible : styles.hidden}`}>
                     <Internet />
-                    <span>{ language }</span>
+                    <span>{language}</span>
                     <ArrowDown />
                     
                     <ul className={styles.language_list}>

@@ -1,14 +1,18 @@
 import { Link, useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./Gnb.module.css";
 
 function Gnb({ language, device }) {
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
     const location = useLocation()
     const pathname = location.pathname
+    const menuIcon = isMenuOpen ? "close" : "menu"
 
     const clickMenuIcon = (e) => {
         e.currentTarget.nextSibling.classList.toggle(`${styles.visible}`)
         document.body.classList.toggle("scroll_disabled")
+
+        setIsMenuOpen(isMenuOpen ? false : true)
     }
 
     return (
@@ -53,7 +57,7 @@ function Gnb({ language, device }) {
                     <span
                         class={`${styles.menu_icon} material-symbols-outlined`}
                         onClick={clickMenuIcon}
-                    >menu</span>
+                    >{menuIcon}</span>
 
                     <ul className={styles.gnb_mobile}>
                         <li

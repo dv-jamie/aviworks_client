@@ -4,7 +4,7 @@
     z-index: 100;
     padding: 0.8rem;
     width: 100vw;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
 }
 .header_inner {
     display: flex;
@@ -61,7 +61,7 @@ header.hidden {
 }
 
 div.visible {
-    display: block;
+    display: flex;
 }
 div.hidden {
     display: none;
