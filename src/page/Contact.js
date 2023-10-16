@@ -1,7 +1,21 @@
+import { useEffect, useRef, useCallback } from 'react';
 import { Send } from '../assets/icons';
 import styles from './Contact.module.css'
 
 function Contact() {
+    const mapRef = useRef(null);
+
+    const initMap = useCallback(() => {
+        new window.google.maps.Map(mapRef.current, {
+            center: { lat: 37.4176482, lng: 127.1268875 },
+            zoom: 8,
+        });
+    }, [mapRef]);
+
+    useEffect(() => {
+        initMap();
+    }, [initMap]);
+    
     return (
         <div className={styles.container}>
             <h1>contact page</h1>
@@ -91,7 +105,7 @@ function Contact() {
                         </li>
                     </ul>
 
-                    <div className={styles.map_wrap}>
+                    <div className={styles.map_wrap} ref={mapRef}>
                         지도 영역 (지도 API 사용 예정)
                     </div>
                 </div>
