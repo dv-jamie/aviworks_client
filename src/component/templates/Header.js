@@ -6,24 +6,8 @@ import Gnb from '../molecules/Gnb';
 import styles from "./Header.module.css";
 
 function Header({ language }) {
-    const [prevScrollTop, setPrevScrollTop] = useState(window.scrollY)
     const [visible, setVisible] = useState(true)
     const [device, setDevice] = useState("")
-
-    useEffect(()=> {
-        const handleScroll = () => {
-           let nextScrollTop = window.scrollY
-           
-           setVisible(prevScrollTop > nextScrollTop);
-           setPrevScrollTop(nextScrollTop)
-        };
-
-        window.addEventListener("scroll", handleScroll);
-
-        return(() => {
-           window.removeEventListener("scroll", handleScroll);
-        })
-    })
 
     useEffect(()=> {
         const handleResize = () => {
