@@ -24,7 +24,7 @@ function Gnb({ language, device }) {
         menuRef.current.classList.remove(`${styles.visible}`)
         document.body.classList.remove("scroll_disabled")
         setIsMenuOpen(false)
-    }, [pathname])
+    }, [])
 
     return (
         <nav className={styles.gnb}>
