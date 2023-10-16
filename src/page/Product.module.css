@@ -12,7 +12,7 @@
 }
 
 /*
-* Button (Common)
+* Common : Button
 */
 .button {
     width: 100%;
@@ -44,11 +44,11 @@
 }
 
 /*
-* Intro Section (Common)
+* Common : Intro Section
 */
 .intro .content_wrap {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     gap: 4.8rem;
 }
@@ -77,7 +77,7 @@
 
 .intro .image_wrap {
     width: 57.6rem;
-    padding: 3.8rem 3rem;
+    height: 57.6rem;
     border-radius: 3.2rem;
     background: var(--primary-blue-5);
     overflow: hidden;
@@ -85,11 +85,11 @@
 .intro img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /*
-* Summary Section (Common)
+* Common : Summary Section
 */
 .summary .content_wrap {
     display: flex;
@@ -102,10 +102,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 1.6rem;
     width: 57.6rem;
 }
 .summary .detail_wrap ul {
-    border-left: 2px solid var(--primary-blue-100);
+    border-left: 0.2rem solid var(--primary-blue-100);
 }
 .summary .detail_wrap li {
     padding: 0 3.2rem 3.2rem 3.2rem;
@@ -200,7 +201,6 @@
     position: relative;
     z-index: 1;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 4.8rem;
 }
@@ -216,6 +216,7 @@
 }
 .swing_tracker .data p {
     margin-top: 3.2rem;
+    text-align: center;
     line-height: 1.5;
 }
 
@@ -292,18 +293,29 @@
     background: var(--primary-blue-5);
 }
 
+.a_scount .summary .content_wrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
 .a_scount .summary .image_wrap {
     display: flex;
     gap: 0.8rem;
+    width: 57.6rem;
     overflow: hidden;
 }
-.a_scount .summary  .image_wrap .column {
+.a_scount .summary .image_wrap .column {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
     width: 28.4rem;
 }
-.a_scount .summary  img {
+.a_scount .summary .image_wrap .column .image {
+    height: 50%;
+}
+.a_scount .summary .image_wrap .image {
+    overflow: hidden;
+}
+.a_scount .summary img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -319,9 +331,12 @@
 /*
 * Caddie-Robot : Intro Section
 */
+.caddie_robot .keyword_wrap {
+    margin-top: 2rem;
+}
 .caddie_robot .keyword_wrap span {
     display: inline-block;
-    margin: 3.2rem 1rem 0 0;
+    margin: 1.2rem 1rem 0 0;
     padding: 0.8rem 1.6rem;
     border-radius: 10rem;
     background: var(--primary-blue-100);
@@ -354,7 +369,8 @@
     margin-top: 16rem;
 }
 .value .value_list > li {
-    flex-basis: 36.8rem;
+    flex-grow: 1;
+    width: 36.8rem;
 }
 .value .value_list .title_wrap div {
     font-weight: 700;
@@ -383,7 +399,20 @@
     font-size: 1.8rem;
 }
 
-@media screen and (max-width: 76.7rem) {
+@media screen and (max-width: 767px) {
+    /*
+    * Swing Tracker : Data Section
+    */
+    .swing_tracker .data .detail_wrap {
+        flex-wrap: wrap;
+    }
+    .swing_tracker .data .detail_wrap li {
+        width: 100%;
+    }
+
+    /*
+    * Swing Tracker : Description Section
+    */
     .description .text_wrap:nth-of-type(2) .caption::before {
         border-top: 0.5rem solid transparent;
         border-bottom: 0.5rem solid transparent; 
@@ -393,5 +422,36 @@
         border-top: 0.5rem solid transparent;
         border-bottom: 0.5rem solid transparent; 
         border-left: 0.9rem solid var(--primary-blue-100); 
+    }
+
+    /*
+    * Swing Tracker : Description Section
+    */
+    .description li {
+        flex-wrap: wrap;
+    }
+    .description li:nth-of-type(2) {
+        justify-content: flex-end;
+        text-align: right;
+    }
+
+    /*
+    * A-scout : Summary Section
+    */
+    .a_scount .summary .content_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    /*
+    * Caddie-Robot : Value Section
+    */
+    .value .value_list > li {
+        flex-grow: 1;
+        width: 100%;
+    }
+    .value .detail_list li {
+        margin: 0 0 1.6rem 4rem;
     }
 }

@@ -66,6 +66,7 @@ body * {
 	-moz-osx-font-smoothing: grayscale;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 1.6rem;
+	word-break: keep-all;
 }
 ol, ul, li {
 	list-style: none;
