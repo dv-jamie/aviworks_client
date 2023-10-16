@@ -66,7 +66,7 @@ function Gnb({ language, device }) {
 
                 : <>
                     <span
-                        class={`${styles.menu_icon} material-symbols-outlined`}
+                        className={`${styles.menu_icon} material-symbols-outlined`}
                         onClick={clickMenuIcon}
                     >{menuIcon}</span>
 

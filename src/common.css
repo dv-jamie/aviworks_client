@@ -93,106 +93,53 @@ table {
 /*
 * Heading style
 */
-@media screen and (min-width: 102.4rem) {
-	.heading-1 {
-		font-weight: 800;
-		font-size: 6.4rem;
-	}
-	.heading-2 {
-		font-weight: 800;
-		font-size: 4.8rem;
-	}
-	.heading-3 {
-		font-size: 4rem;
-		line-height: 1.5;
-	}
-	.heading-4 {
-		font-weight: 700;
-		font-size: 2.4rem;
-	}
-
-	.sub-title-1 {
-		font-size: 4rem;
-		line-height: 1.2;
-	}
-	.sub-title-2 {
-		font-size: 3.2rem;
-	}
-	
-	.body-text-1 {
-		font-size: 2.2rem;
-	}
-	.body-text-2 {
-		font-size: 2rem;
-		letter-spacing: -0.02rem;
-	}
-	.body-text-3 {
-		font-size: 1.6rem;
-	}
-
-	.impact-text-1 {
-		font-weight: 900;
-		font-size: 9.6rem;
-		letter-spacing: -0.05rem;
-	}
-	.impact-text-2 {
-		font-weight: 700;
-		font-size: 3.2rem;
-	}
+.heading-1 {
+	font-weight: 800;
+	font-size: 6.4rem;
+}
+.heading-2 {
+	font-weight: 800;
+	font-size: 4.8rem;
+}
+.heading-3 {
+	font-size: 4rem;
+	line-height: 1.5;
+}
+.heading-4 {
+	font-weight: 700;
+	font-size: 2.4rem;
 }
 
-@media screen and (min-width: 76.8rem) and (max-width: 102.3rem) {
-	.heading-1 {
-		font-weight: 800;
-		font-size: 4.8rem;
-	}
-	.heading-2 {
-		font-weight: 800;
-		font-size: 3.2rem;
-	}
-	.heading-3 {
-		font-size: 2.8rem;
-		line-height: 1.5;
-	}
-	.heading-4 {
-		font-weight: 700;
-		font-size: 2.2rem;
-	}
-
-	.sub-title-1 {
-		font-size: 3.2rem;
-		line-height: 1.2;
-	}
-	.sub-title-2 {
-		font-size: 2.8rem;
-	}
-	.sub-title-3 {
-		font-size: 1.8rem;
-	}
-	
-	.body-text-1 {
-		font-size: 1.8rem;
-	}
-	.body-text-2 {
-		font-size: 1.8rem;
-		letter-spacing: -0.02rem;
-	}
-	.body-text-3 {
-		font-size: 1.4rem;
-	}
-
-	.impact-text-1 {
-		font-weight: 900;
-		font-size: 8rem;
-		letter-spacing: -0.05rem;
-	}
-	.impact-text-2 {
-		font-weight: 700;
-		font-size: 2.8rem;
-	}
+.sub-title-1 {
+	font-size: 4rem;
+	line-height: 1.2;
+}
+.sub-title-2 {
+	font-size: 3.2rem;
 }
 
-@media screen and (max-width: 76.7rem) {
+.body-text-1 {
+	font-size: 2.2rem;
+}
+.body-text-2 {
+	font-size: 2rem;
+	letter-spacing: -0.02rem;
+}
+.body-text-3 {
+	font-size: 1.6rem;
+}
+
+.impact-text-1 {
+	font-weight: 900;
+	font-size: 9.6rem;
+	letter-spacing: -0.05rem;
+}
+.impact-text-2 {
+	font-weight: 700;
+	font-size: 3.2rem;
+}
+
+/* @media screen and (max-width: 76.7rem) {
 	.heading-1 {
 		font-weight: 800;
 		font-size: 3.2rem;
@@ -241,4 +188,4 @@ table {
 		font-weight: 700;
 		font-size: 2.2rem;
 	}
-}
+} */
