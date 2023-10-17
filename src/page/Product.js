@@ -321,8 +321,8 @@ function Product() {
                                 </div>
 
                                 <ul className={styles.detail_list}>
-                                    <li className="body-text-2">매년 증가하는 라운딩 비용을 줄여 줍니다</li>
-                                    <li className="body-text-2">워킹 골프를 통하여 건강도 지키고 캐디비와 카트비를 줄여 보세요</li>
+                                    <li className="body-text-2">워킹 골프 (셀프 라운딩)을 위한 캐디 서비스를 제공합니다</li>
+                                    <li className="body-text-2">골프 코스 정보, 스코어 등록, 남은 거리 정보 등을 포함한 빅데이터를 바탕으로 한 골퍼 개인별 맞춤형 필드 데이터를 제공합니다</li>
                                 </ul>
                             </li>
                             <li>
@@ -332,8 +332,9 @@ function Product() {
                                 </div>
 
                                 <ul className={styles.detail_list}>
-                                    <li className="body-text-2">매년 증가하는 라운딩 비용을 줄여 줍니다</li>
-                                    <li className="body-text-2">워킹 골프를 통하여 건강도 지키고 캐디비와 카트비를 줄여 보세요</li>
+                                    <li className="body-text-2">필드에서의 스윙 영상 촬영 서비스를 제공합니다</li>
+                                    <li className="body-text-2">스윙 영상 앨범/비디오 클립을 제공합니다</li>
+                                    <li className="body-text-2">AI 기반 3D 스윙 분석을 실시간으로 제공합니다</li>
                                 </ul>
                             </li>
                         </ul>

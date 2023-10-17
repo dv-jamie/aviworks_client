@@ -48,7 +48,6 @@
 */
 .intro .content_wrap {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     gap: 4.8rem;
 }
@@ -76,8 +75,8 @@
 }
 
 .intro .image_wrap {
+    flex-grow: 0.4;
     width: 57.6rem;
-    height: 57.6rem;
     border-radius: 3.2rem;
     background: var(--primary-blue-5);
     overflow: hidden;
@@ -282,10 +281,6 @@
 }
 
 /********** A-scout ***********/
-.a_scount .content_wrap {
-    display: flex;
-}
-
 /*
 * A-scout : Summary Section
 */
@@ -295,7 +290,8 @@
 
 .a_scount .summary .content_wrap {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .a_scount .summary .image_wrap {
     display: flex;
@@ -363,13 +359,11 @@
 
 .value .value_list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 4.8rem;
     margin-top: 16rem;
 }
 .value .value_list > li {
-    flex-grow: 1;
     width: 36.8rem;
 }
 .value .value_list .title_wrap div {
@@ -400,6 +394,20 @@
 }
 
 @media screen and (max-width: 767px) {
+    .container section > .content_wrap {
+        padding: 0 4rem;
+    }
+
+    /*
+    * Common : Intro Section
+    */
+    .intro .content_wrap {
+        flex-wrap: wrap;
+    }
+    .swing_tracker .intro .content_wrap {
+        flex-wrap: wrap-reverse;
+    }
+
     /*
     * Swing Tracker : Data Section
     */
@@ -447,9 +455,11 @@
     /*
     * Caddie-Robot : Value Section
     */
+    .value .value_list {
+        flex-wrap: wrap;
+    }
     .value .value_list > li {
-        flex-grow: 1;
-        width: 100%;
+        width: 70%;
     }
     .value .detail_list li {
         margin: 0 0 1.6rem 4rem;
