@@ -9,16 +9,27 @@ function Header({ language }) {
     const [device, setDevice] = useState("")
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-    useEffect(()=> {
-        const handleResize = () => {
-           let innerWidth = window.innerWidth
+    useEffect(() => {
+        const innerWidth = window.innerWidth
 
-           if(innerWidth > 768) {
+        if(innerWidth > 768) {
             setDevice("PC")
             setIsMenuOpen(false)
-           } else {
+        } else {
             setDevice("MOBILE")
-           }
+        }
+    }, [])
+
+    useEffect(()=> {
+        const handleResize = () => {
+            let innerWidth = window.innerWidth
+
+            if(innerWidth > 768) {
+                setDevice("PC")
+                setIsMenuOpen(false)
+            } else {
+                setDevice("MOBILE")
+            }
         };
 
         window.addEventListener("resize", handleResize);
