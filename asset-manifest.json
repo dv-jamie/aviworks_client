@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/aviworks_client/static/css/main.99cef824.css",
-    "main.js": "/aviworks_client/static/js/main.f3341d41.js",
-    "static/media/basketball-peole.jpg": "/aviworks_client/static/media/basketball-peole.a7c327de3c1abdd6950b.jpg",
-    "static/media/star.jpg": "/aviworks_client/static/media/star.9ced7203fafb34fddd44.jpg",
-    "static/media/golf-course.jpg": "/aviworks_client/static/media/golf-course.e58373cf8b70072a3a03.jpg",
-    "static/media/golf-ball.jpg": "/aviworks_client/static/media/golf-ball.4f22f8d082fd0279e47e.jpg",
-    "static/media/tennis-lesson.jpg": "/aviworks_client/static/media/tennis-lesson.5eec8836a62e1655f866.jpg",
-    "static/media/soccer.jpg": "/aviworks_client/static/media/soccer.0037112993d0b102c33b.jpg",
-    "static/media/suit-man.jpg": "/aviworks_client/static/media/suit-man.0ae4e5799b6f535020df.jpg",
-    "static/media/building.jpg": "/aviworks_client/static/media/building.70e53e00018143c9325e.jpg",
+    "main.css": "/aviworks_client/static/css/main.e70037c4.css",
+    "main.js": "/aviworks_client/static/js/main.f2f169c4.js",
+    "static/media/star.jpg": "/aviworks_client/static/media/star.542c52f475f4aeed25da.jpg",
+    "static/media/basketball-peole.jpg": "/aviworks_client/static/media/basketball-peole.9db062a35144f860c53d.jpg",
+    "static/media/golf-course.jpg": "/aviworks_client/static/media/golf-course.6bc7c77709e39ca102b1.jpg",
+    "static/media/suit-man.jpg": "/aviworks_client/static/media/suit-man.8175dd5626d31575f47e.jpg",
     "static/media/screen-1.jpg": "/aviworks_client/static/media/screen-1.9e7bf580b89082390679.jpg",
     "static/media/screen-2.jpg": "/aviworks_client/static/media/screen-2.c22f989adf9e3116f511.jpg",
-    "static/media/handshaking.jpg": "/aviworks_client/static/media/handshaking.c5ec44eb58399224eaa8.jpg",
-    "static/media/basketball.jpg": "/aviworks_client/static/media/basketball.bb3c7494bf8ff77cb818.jpg",
-    "static/media/golf.jpg": "/aviworks_client/static/media/golf.8468947c70b1ca2c4951.jpg",
-    "static/media/volleyball.jpg": "/aviworks_client/static/media/volleyball.99a3c9388a9b7afa62e9.jpg",
-    "static/media/bicycle-race.jpg": "/aviworks_client/static/media/bicycle-race.c1c37a96626b246e7a7e.jpg",
+    "static/media/building.jpg": "/aviworks_client/static/media/building.8ee71212642b0cc5d37f.jpg",
+    "static/media/handshaking.jpg": "/aviworks_client/static/media/handshaking.44b91075c2bdb6b60184.jpg",
+    "static/media/tennis-lesson.jpg": "/aviworks_client/static/media/tennis-lesson.9f1609163fc14a43d5dd.jpg",
+    "static/media/soccer.jpg": "/aviworks_client/static/media/soccer.65d4f291981075bf0304.jpg",
+    "static/media/basketball.jpg": "/aviworks_client/static/media/basketball.90be519b20933b260396.jpg",
+    "static/media/bicycle-race.jpg": "/aviworks_client/static/media/bicycle-race.f290403a5ac6b3fab18b.jpg",
+    "static/media/golf-ball.jpg": "/aviworks_client/static/media/golf-ball.0d77dabbb9abf80bc00c.jpg",
     "static/media/caddie-robot.png": "/aviworks_client/static/media/caddie-robot.cf8a1d2566074cee2dad.png",
+    "static/media/golf.jpg": "/aviworks_client/static/media/golf.9585b2ff2ceba24f4ae4.jpg",
+    "static/media/volleyball.jpg": "/aviworks_client/static/media/volleyball.f93b92cfec964c4dc286.jpg",
     "static/media/trophy.jpg": "/aviworks_client/static/media/trophy.b1b9da545b6ff3bc4c08.jpg",
     "static/media/cameras.jpg": "/aviworks_client/static/media/cameras.46708c8c800f3e2795f4.jpg",
     "static/media/a-scout.png": "/aviworks_client/static/media/a-scout.4cff56ec9966189c1577.png",
@@ -46,11 +46,11 @@
     "static/media/play.svg": "/aviworks_client/static/media/play.5e2691cb2635db658f456f4834903389.svg",
     "static/media/send.svg": "/aviworks_client/static/media/send.73714f27728bb31924c14716f60bcac3.svg",
     "static/media/arrow-down.svg": "/aviworks_client/static/media/arrow-down.3a9fb1443607e76a291ec6e8f4f2bc91.svg",
-    "main.99cef824.css.map": "/aviworks_client/static/css/main.99cef824.css.map",
-    "main.f3341d41.js.map": "/aviworks_client/static/js/main.f3341d41.js.map"
+    "main.e70037c4.css.map": "/aviworks_client/static/css/main.e70037c4.css.map",
+    "main.f2f169c4.js.map": "/aviworks_client/static/js/main.f2f169c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.99cef824.css",
-    "static/js/main.f3341d41.js"
+    "static/css/main.e70037c4.css",
+    "static/js/main.f2f169c4.js"
   ]
 }
