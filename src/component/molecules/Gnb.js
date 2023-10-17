@@ -7,23 +7,28 @@ function Gnb({ language, device, isMenuOpen, setIsMenuOpen }) {
     const menuRef = useRef(null)
     const menuIcon = isMenuOpen ? "close" : "menu"
 
-    const clickMenuIcon = () => {
-        if(isMenuOpen) {
-            menuRef.current.classList.remove(`${styles.visible}`)
-            document.body.classList.remove("scroll_disabled")
-            setIsMenuOpen(false)
-        } else {
-            menuRef.current.classList.add(`${styles.visible}`)
+    const closeMenu = () => {
+        menuRef.current.classList.remove(`${styles.visible}`)
+        document.body.classList.remove("scroll_disabled")
+        setIsMenuOpen(false)
+    }
+
+    const openMenu = () => {
+        menuRef.current.classList.add(`${styles.visible}`)
             document.body.classList.add("scroll_disabled")
             setIsMenuOpen(true)
+    }
+
+    const clickMenuIcon = () => {
+        if(isMenuOpen) {
+            closeMenu()
+        } else {
+            openMenu()
         }
     }
 
     useEffect(() => {
-        window.scrollTo(0, 0);
-        menuRef.current.classList.remove(`${styles.visible}`)
-        document.body.classList.remove("scroll_disabled")
-        setIsMenuOpen(false)
+        isMenuOpen && closeMenu()
     }, [pathname])
 
     return (
