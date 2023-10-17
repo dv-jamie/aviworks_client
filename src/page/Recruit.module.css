@@ -62,6 +62,7 @@
     flex-wrap: wrap;
     align-items: center;
     width: 57.6rem;
+    min-width: 350px;
     padding: 3.6rem 1.6rem;
     border-radius: 3.2rem;
     background: #fff;
@@ -84,4 +85,19 @@
 .board .detail_wrap li::marker {
     display: inline-block;
     font-size: 1.6rem;
+}
+
+@media screen and (max-width: 767px) {
+    /*
+    * Board Section
+    */
+    .board .board_wrap > li {
+        width: 100%;
+    }
+    .board .board_wrap label {
+        width: 25%;
+    }
+    .board .detail_wrap li {
+        margin-left: 6rem;
+    } 
 }
