@@ -61,8 +61,8 @@ function Product() {
                                     <span className={`impact-text-2 ${styles.unit}`}>개</span>
                                  </div>
                                  <p className="body-text-2">
-                                    나이, 인종, 성별, 체형별 데이터 확보,<br />
-                                    Deep Learning 학습을 수행한 기간
+                                    영상 매 프레임마다 수치화된<br />
+                                    골프 모션 정보 Tracker의 개수
                                  </p>
                             </li>
                             <li>
@@ -71,8 +71,8 @@ function Product() {
                                     <span className={`impact-text-2 ${styles.unit}`}>개</span>
                                  </div>
                                  <p className="body-text-2">
-                                    나이, 인종, 성별, 체형별 데이터 확보,<br />
-                                    Deep Learning 학습을 수행한 기간
+                                    하나의 스윙에서 얻어낸
+                                    스윙 모션 지표 Indicator의 개수
                                  </p>
                             </li>
                         </ul>
