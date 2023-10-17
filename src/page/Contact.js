@@ -1,16 +1,24 @@
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback, useState } from 'react';
 import { Send } from '../assets/icons';
 import styles from './Contact.module.css'
 
 function Contact() {
-    const mapRef = useRef(null);
+    const mapRef = useRef(null)
 
     const initMap = useCallback(() => {
-        new window.google.maps.Map(mapRef.current, {
-            center: { lat: 37.4176482, lng: 127.1268875 },
-            zoom: 8,
+        const position = { lat: 37.4176482, lng: 127.1268875 }
+        const newMap = new window.google.maps.Map(mapRef.current, {
+            center: position,
+            zoom: 16,
+        })
+
+        new window.google.maps.Marker({
+            position,
+            map: newMap,
+            title: '에이비웍스',
         });
-    }, [mapRef]);
+    });
+
 
     useEffect(() => {
         initMap();
