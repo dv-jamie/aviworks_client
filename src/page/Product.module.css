@@ -451,6 +451,9 @@
         flex-wrap: wrap;
         width: 100%;
     }
+    .a_scount .summary .button_wrap {
+        flex-wrap: wrap;
+    }
 
     /*
     * Caddie-Robot : Value Section
@@ -459,7 +462,8 @@
         flex-wrap: wrap;
     }
     .value .value_list > li {
-        width: 70%;
+        width: 90%;
+        height: auto;
     }
     .value .detail_list li {
         margin: 0 0 1.6rem 4rem;

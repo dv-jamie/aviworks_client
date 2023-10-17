@@ -92,7 +92,7 @@ table {
 }
 
 /*
-* Heading style
+* Font style
 */
 .heading-1 {
 	font-weight: 800;
@@ -103,7 +103,7 @@ table {
 	font-size: 4.8rem;
 }
 .heading-3 {
-	font-size: 4rem;
+	font-size: 3.6rem;
 	line-height: 1.5;
 }
 .heading-4 {
@@ -141,13 +141,7 @@ table {
 }
 
 @media screen and (max-width: 767px) {
-    html {
-		font-size: 40%;
-	}
-}
-
-@media screen and (max-width: 575px) {
-    html {
-		font-size: 30%;
+	html {
+		font-size: 48%;
 	}
 }
