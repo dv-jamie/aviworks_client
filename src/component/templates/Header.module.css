@@ -15,7 +15,9 @@
     margin: 0 auto;
     padding: 0 2rem;
 }
-
+.header_inner svg {
+    width: 16rem;
+}
 .selectbox_language {
     position: fixed;
     top: 0;
@@ -23,6 +25,7 @@
     gap: 0.4rem;
     align-items: center;
     position: relative;
+    width: 14rem;
     padding: 0.8rem 0;
     cursor: pointer;
 }
@@ -65,4 +68,10 @@ div.visible {
 }
 div.hidden {
     display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .header_inner svg {
+        width: 22rem;
+    }
 }
