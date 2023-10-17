@@ -1,9 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import styles from "./Gnb.module.css";
 
-function Gnb({ language, device }) {
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
+function Gnb({ language, device, isMenuOpen, setIsMenuOpen }) {
     const { pathname } = useLocation()
     const menuRef = useRef(null)
     const menuIcon = isMenuOpen ? "close" : "menu"
@@ -21,10 +20,11 @@ function Gnb({ language, device }) {
     }
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         menuRef.current.classList.remove(`${styles.visible}`)
         document.body.classList.remove("scroll_disabled")
         setIsMenuOpen(false)
-    }, [])
+    }, [pathname])
 
     return (
         <nav className={styles.gnb}>

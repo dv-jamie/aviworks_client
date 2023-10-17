@@ -6,14 +6,19 @@ import Gnb from '../molecules/Gnb';
 import styles from "./Header.module.css";
 
 function Header({ language }) {
-    const [visible, setVisible] = useState(true)
     const [device, setDevice] = useState("")
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     useEffect(()=> {
         const handleResize = () => {
            let innerWidth = window.innerWidth
-           
-           setDevice(innerWidth > 768 ? "PC" : "MOBILE");
+
+           if(innerWidth > 768) {
+            setDevice("PC")
+            setIsMenuOpen(false)
+           } else {
+            setDevice("MOBILE")
+           }
         };
 
         window.addEventListener("resize", handleResize);
@@ -24,13 +29,18 @@ function Header({ language }) {
     })
 
     return (
-        <header className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
+        <header className={styles.header}>
             <div className={styles.header_inner}>
                 <Link to="/">
                     <Logo />
                 </Link>
                 
-                <Gnb language={language} device={device} />
+                <Gnb
+                    language={language}
+                    device={device}
+                    isMenuOpen={isMenuOpen}
+                    setIsMenuOpen={setIsMenuOpen}
+                />
 
                 <div className={`${styles.selectbox_language} ${device === "PC" ? styles.visible : styles.hidden}`}>
                     <Internet />
