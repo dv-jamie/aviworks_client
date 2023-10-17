@@ -24,14 +24,21 @@
     left: 0;
     z-index: 1000;
     display: none;
+    flex-direction: column;
+    justify-content: center;
     width: 100vw;
+    height: 100vh;
     padding: 1.2rem 0;
     background: #fff;
     opacity: .95;
     text-align: center;
 }
 .gnb_mobile > li {
-    padding: 2rem 0;
+    padding: 4.8rem 0;
+}
+.gnb_mobile > li a,
+.language_list li {
+    font-size: 2.4rem;
 }
 .language_list {
     display: flex;
@@ -40,8 +47,9 @@
 .language_list li {
     color: var(--gray-30);
     margin-top: 1.2rem;
-    padding: 2rem 1.2rem;
+    padding: 4.8rem 1.2rem;
     border-top: 0.1rem solid var(--gray-30);
+    cursor: pointer;
 }
 .language_list .selected {
     color: var(--gray-100);
@@ -54,7 +62,7 @@
     color: var(--primary-blue-100);
 }
 .visible {
-    display: block;
+    display: flex;
 }
 
 @media screen and (max-width: 767px) {
