@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aviworks_client/static/css/main.6e57ba36.css",
-    "main.js": "/aviworks_client/static/js/main.9506f8d0.js",
+    "main.css": "/aviworks_client/static/css/main.d1288c97.css",
+    "main.js": "/aviworks_client/static/js/main.f3341d41.js",
     "static/media/basketball-peole.jpg": "/aviworks_client/static/media/basketball-peole.a7c327de3c1abdd6950b.jpg",
     "static/media/star.jpg": "/aviworks_client/static/media/star.9ced7203fafb34fddd44.jpg",
     "static/media/golf-course.jpg": "/aviworks_client/static/media/golf-course.e58373cf8b70072a3a03.jpg",
@@ -17,10 +17,10 @@
     "static/media/golf.jpg": "/aviworks_client/static/media/golf.8468947c70b1ca2c4951.jpg",
     "static/media/volleyball.jpg": "/aviworks_client/static/media/volleyball.99a3c9388a9b7afa62e9.jpg",
     "static/media/bicycle-race.jpg": "/aviworks_client/static/media/bicycle-race.c1c37a96626b246e7a7e.jpg",
-    "static/media/caddie-robot.png": "/aviworks_client/static/media/caddie-robot.0bc6016158f22ce24050.png",
+    "static/media/caddie-robot.png": "/aviworks_client/static/media/caddie-robot.cf8a1d2566074cee2dad.png",
     "static/media/trophy.jpg": "/aviworks_client/static/media/trophy.b1b9da545b6ff3bc4c08.jpg",
-    "static/media/a-scout.png": "/aviworks_client/static/media/a-scout.409f342f4bfb24956514.png",
     "static/media/cameras.jpg": "/aviworks_client/static/media/cameras.46708c8c800f3e2795f4.jpg",
+    "static/media/a-scout.png": "/aviworks_client/static/media/a-scout.4cff56ec9966189c1577.png",
     "static/media/robot.jpg": "/aviworks_client/static/media/robot.87d995132142f7912366.jpg",
     "static/media/mockup-screen-2.png": "/aviworks_client/static/media/mockup-screen-2.c57e136a68dcf97a2051.png",
     "static/media/mockup-screen-1.png": "/aviworks_client/static/media/mockup-screen-1.a27d7f86aec31da177ca.png",
@@ -46,11 +46,11 @@
     "static/media/play.svg": "/aviworks_client/static/media/play.5e2691cb2635db658f456f4834903389.svg",
     "static/media/send.svg": "/aviworks_client/static/media/send.73714f27728bb31924c14716f60bcac3.svg",
     "static/media/arrow-down.svg": "/aviworks_client/static/media/arrow-down.3a9fb1443607e76a291ec6e8f4f2bc91.svg",
-    "main.6e57ba36.css.map": "/aviworks_client/static/css/main.6e57ba36.css.map",
-    "main.9506f8d0.js.map": "/aviworks_client/static/js/main.9506f8d0.js.map"
+    "main.d1288c97.css.map": "/aviworks_client/static/css/main.d1288c97.css.map",
+    "main.f3341d41.js.map": "/aviworks_client/static/js/main.f3341d41.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e57ba36.css",
-    "static/js/main.9506f8d0.js"
+    "static/css/main.d1288c97.css",
+    "static/js/main.f3341d41.js"
   ]
 }
