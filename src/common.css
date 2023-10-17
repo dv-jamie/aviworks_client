@@ -112,10 +112,6 @@ table {
 }
 
 .sub-title-1 {
-	font-size: 4rem;
-	line-height: 1.2;
-}
-.sub-title-2 {
 	font-size: 3.2rem;
 }
 
@@ -142,6 +138,26 @@ table {
 
 @media screen and (max-width: 767px) {
 	html {
-		font-size: 48%;
+		font-size: 46%;
+	}
+	.heading-1 {
+		font-size: 3.8rem;
+	}
+	.heading-2 {
+		font-size: 3rem;
+	}
+	.heading-3 {
+		font-size: 2.8rem;
+	}
+	.heading-4 {
+		font-size: 2.4rem;
+	}
+
+	.sub-title-1 {
+		font-size: 2.8rem;
+	}
+
+	.body-text-3 {
+		font-size: 2rem;
 	}
 }

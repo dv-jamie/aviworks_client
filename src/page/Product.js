@@ -95,18 +95,18 @@ function Product() {
                         <div className={styles.detail_wrap}>
                             <ul>
                                 <li>
-                                    <div className={`sub-title-2 ${styles.title}`}>AI 기반 3D 입체 분석 제공</div>
+                                    <div className={`sub-title-1 ${styles.title}`}>AI 기반 3D 입체 분석 제공</div>
                                     <p className="body-text-2">생체역학을 바탕으로 체계적이고 정밀한 분석을 제공합니다</p>
                                 </li>
                                 <li>
-                                    <div className={`sub-title-2 ${styles.title}`}>100여 개의 분석 데이터 제공</div>
+                                    <div className={`sub-title-1 ${styles.title}`}>100여 개의 분석 데이터 제공</div>
                                     <p className="body-text-2">
                                         다 시점(여섯 방향)에서의 입체 스윙 영상과 함께 100여 개의<br />
                                         분석 데이터를 제공합니다
                                     </p>
                                 </li>
                                 <li>
-                                    <div className={`sub-title-2 ${styles.title}`}>정밀 수치 데이터 제공</div>
+                                    <div className={`sub-title-1 ${styles.title}`}>정밀 수치 데이터 제공</div>
                                     <p className="body-text-2">
                                         3D 기반 회전 정보(어깨 회전 각도, 힙 회전 각도),<br />
                                         머리, 가슴 움직임 정도, 척추 각도, 스웨이, X-Factor 등에 대한<br />
@@ -142,7 +142,7 @@ function Product() {
                                     <img src={MockupScreen1} alt="스크린 목업 이미지 1" />
                                 </div>
                                 <div className={styles.text_wrap}>
-                                    <div className={`sub-title-2 ${styles.title}`}>
+                                    <div className={`sub-title-1 ${styles.title}`}>
                                         데이터 기반의<br />
                                         정략적인 분석
                                     </div>
@@ -152,7 +152,7 @@ function Product() {
                             </li>
                             <li>
                                 <div className={styles.text_wrap}>
-                                    <div className={`sub-title-2 ${styles.title}`}>정밀 데이터 제공</div>
+                                    <div className={`sub-title-1 ${styles.title}`}>정밀 데이터 제공</div>
                                     <p className="body-text-2">
                                         회전(Turn), 각도(Angle), 헤드업, 스웨이,<br />
                                         X-Factor 등
@@ -168,7 +168,7 @@ function Product() {
                                     <img src={MockupScreen3} alt="스크린 목업 이미지 3" />
                                 </div>
                                 <div className={styles.text_wrap}>
-                                    <div className={`sub-title-2 ${styles.title}`}>
+                                    <div className={`sub-title-1 ${styles.title}`}>
                                         스윙 단계별<br />
                                         코칭/학습 기회 제공
                                     </div>
@@ -226,14 +226,14 @@ function Product() {
                         <div className={styles.detail_wrap}>
                             <ul>
                                 <li>
-                                    <div className={`sub-title-2 ${styles.title}`}>고속 정밀 촬영</div>
+                                    <div className={`sub-title-1 ${styles.title}`}>고속 정밀 촬영</div>
                                     <p className="body-text-2">
                                         골프, 테니스, 축구 등의 스포츠에서 빠르게 움직이는 대상체를<br />
                                         고속으로 정밀하게 촬영을 할 수 있습니다
                                     </p>
                                 </li>
                                 <li>
-                                    <div className={`sub-title-2 ${styles.title}`}>골프 스윙 분석에 최적화된 영상</div>
+                                    <div className={`sub-title-1 ${styles.title}`}>골프 스윙 분석에 최적화된 영상</div>
                                     <p className="body-text-2">
                                         3D Swing Tracker를 사용한 골프 스윙 분석에 있어서<br />
                                         최고의 골프 스윙 영상을 제공해 줍니다
@@ -305,7 +305,7 @@ function Product() {
                         <ul className={styles.value_list}>
                             <li>
                                 <div className={styles.title_wrap}>
-                                    <div className="sub-title-2">비용 절감</div>
+                                    <div className="sub-title-1">비용 절감</div>
                                     <div className="body-text-1">Cost Saving</div>
                                 </div>
                                 
@@ -316,7 +316,7 @@ function Product() {
                             </li>
                             <li>
                                 <div className={styles.title_wrap}>
-                                    <div className="sub-title-2">편의 서비스</div>
+                                    <div className="sub-title-1">편의 서비스</div>
                                     <div className="body-text-1">Convenience</div>
                                 </div>
 
@@ -327,7 +327,7 @@ function Product() {
                             </li>
                             <li>
                                 <div className={styles.title_wrap}>
-                                    <div className="sub-title-2">스윙 촬영ㆍ분석</div>
+                                    <div className="sub-title-1">스윙 촬영ㆍ분석</div>
                                     <div className="body-text-1">Swing Tracking</div>
                                 </div>
 

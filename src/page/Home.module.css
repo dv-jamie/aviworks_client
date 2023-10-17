@@ -431,14 +431,20 @@
     /*
     * Way Section
     */
+    .way .board > li {
+        height: auto;
+        padding-bottom: 20rem;
+    }
     .way .board .detail_wrap li {
         margin-left: 3.2rem;
     }
+
     /*
     * Production Section
     */
     .production svg {
         top: -10rem;
+        left: -1rem;
     }
 
     /*

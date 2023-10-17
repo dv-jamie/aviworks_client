@@ -63,7 +63,7 @@ function Home() {
             {/* Goal Section */}
             <section className={styles.goal}>
                 <h2 className="heading-1">우리의 목표는</h2>
-                <p className="sub-title-2">
+                <p className="sub-title-1">
                     혁신적이고, 분명하며, 용이하고,<br />
                     지속 가능한 기술과 솔루션을 통해<br />
                     스포츠 경험을 향상시킴으로써
@@ -87,13 +87,13 @@ function Home() {
                     </div>
                     
                     <div className={styles.board_wrap}>
-                        <div className={`sub-title-2 ${styles.caption}`}>
+                        <div className={`sub-title-1 ${styles.caption}`}>
                             AI-3D Vision Based Total Golf Solutions
                         </div>
 
                         <ul className={styles.board}>
                             <li>
-                                <label className="sub-title-2">Self-Skill Improvement</label>
+                                <label className="sub-title-1">Self-Skill Improvement</label>
                                 <ul className={styles.detail_wrap}>
                                     <li className="body-text-1">3D 골프 스윙 분석 & 스윙 자세 검출</li>
                                     <li className="body-text-1">AI 골프 클럽 Fitting Service</li>
@@ -103,7 +103,7 @@ function Home() {
                                 <img src={GolfPose} alt="골프 자세 일러스트" />
                             </li>
                             <li>
-                                <label className="sub-title-2">Social Networking</label>
+                                <label className="sub-title-1">Social Networking</label>
                                 <ul className={styles.detail_wrap}>
                                     <li className="body-text-1">Global Mentor Networking</li>
                                     <li className="body-text-1">Market Place Platform</li>
@@ -112,7 +112,7 @@ function Home() {
                                 <img src={Networking} alt="네트워킹 일러스트" />
                             </li>
                             <li>
-                                <label className="sub-title-2">Fun</label>
+                                <label className="sub-title-1">Fun</label>
                                 <ul className={styles.detail_wrap}>
                                     <li className="body-text-1">온라인 스크린 골프 대회</li>
                                     <li className="body-text-1">온라인을 통한 프로 골퍼와의 Networking</li>
@@ -122,7 +122,7 @@ function Home() {
                                 <img src={Fun} alt="즐거운 일러스트" />
                             </li>
                             <li>
-                                <label className="sub-title-2">New Culture</label>
+                                <label className="sub-title-1">New Culture</label>
                                 <ul className={styles.detail_wrap}>
                                     <li className="body-text-1">건강 증진 위한 대중 스포츠화</li>
                                     <li className="body-text-1">
@@ -142,17 +142,17 @@ function Home() {
             <section className={styles.technology}>
                 <div className={styles.content_wrap}>
                     <ul className={styles.keyword_wrap}>
-                        <li className="sub-title-2">AI</li>
-                        <li className="sub-title-2">Big Data</li>
-                        <li className="sub-title-2">Cloud</li>
-                        <li className="sub-title-2">5G/LTE</li>
-                        <li className="sub-title-2">Analysis Algorithm</li>
-                        <li className="sub-title-2">Autonomous Control</li>
-                        <li className="sub-title-2">Optical System</li>
-                        <li className="sub-title-2">Ball Tracking</li>
-                        <li className="sub-title-2">.</li>
-                        <li className="sub-title-2">.</li>
-                        <li className="sub-title-2">.</li>
+                        <li className="sub-title-1">AI</li>
+                        <li className="sub-title-1">Big Data</li>
+                        <li className="sub-title-1">Cloud</li>
+                        <li className="sub-title-1">5G/LTE</li>
+                        <li className="sub-title-1">Analysis Algorithm</li>
+                        <li className="sub-title-1">Autonomous Control</li>
+                        <li className="sub-title-1">Optical System</li>
+                        <li className="sub-title-1">Ball Tracking</li>
+                        <li className="sub-title-1">.</li>
+                        <li className="sub-title-1">.</li>
+                        <li className="sub-title-1">.</li>
                     </ul>
 
                     <div className={styles.title_wrap}>
@@ -167,7 +167,7 @@ function Home() {
                             </div>
 
                             <ul className={styles.content_wrap}>
-                                <label className="sub-title-2">자율 추종/주행 기술</label>
+                                <label className="sub-title-1">자율 추종/주행 기술</label>
                                 <ul className={styles.detail_wrap}>
                                     <li className="body-text-1">3D 비전, Lidar, Radar 기반의 골퍼 추적 및 자율 추종 기술</li>
                                     <li className="body-text-1">정밀 모터 제어, 네트워크, 5G/LTE 연동 기술</li>
@@ -182,7 +182,7 @@ function Home() {
                             </div>
 
                             <ul className={styles.content_wrap}>
-                                <label className="sub-title-2">실시간 3D 스윙 분석 기술</label>
+                                <label className="sub-title-1">실시간 3D 스윙 분석 기술</label>
                                 <ul className={styles.detail_wrap}>
                                     <li className="body-text-1">AI 기반 3D 골프 스윙 분석 기술</li>
                                     <li className="body-text-1">스윙 단계별 3D 기반 정밀 데이터 생성 및 분석</li>
@@ -197,7 +197,7 @@ function Home() {
                             </div>
 
                             <ul className={styles.content_wrap}>
-                                <label className="sub-title-2">자율 추종/주행 기술</label>
+                                <label className="sub-title-1">자율 추종/주행 기술</label>
                                 <ul className={styles.detail_wrap}>
                                     <li className="body-text-1">AI 기반 에지 디바이스 설계 기술</li>
                                     <li className="body-text-1">Blurring 없는 고속 프레임 레이트 카메라 기술</li>
@@ -228,7 +228,7 @@ function Home() {
                             </div>
 
                             <div className={styles.content_wrap}>
-                                <div className="sub-title-2">3D Swing Tracker</div>
+                                <div className="sub-title-1">3D Swing Tracker</div>
                                 <p className="body-text-1">
                                     AI 기반 다 시점<br />
                                     3D 골프 스윙 분석 서비스
@@ -244,7 +244,7 @@ function Home() {
                             </div>
 
                             <div className={styles.content_wrap}>
-                                <div className="sub-title-2">A-Scout</div>
+                                <div className="sub-title-1">A-Scout</div>
                                 <p className="body-text-1">
                                     다양한 스포츠에 특화된<br />
                                     고속/정밀 영상 촬영 카메라
@@ -260,7 +260,7 @@ function Home() {
                             </div>
 
                             <div className={styles.content_wrap}>
-                                <div className="sub-title-2">
+                                <div className="sub-title-1">
                                     Caddie-Robot<br />
                                     Platform Service
                                 </div>
@@ -304,7 +304,7 @@ function Home() {
                         </div>
 
                         <ul className={styles.list}>
-                            <li className={`sub-title-2 ${styles.year}`}>2023</li>
+                            <li className={`sub-title-1 ${styles.year}`}>2023</li>
                             <ul className={styles.month}>
                                 <li>
                                     <label className="body-text-1">4월</label>
