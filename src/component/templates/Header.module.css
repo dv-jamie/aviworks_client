@@ -1,15 +1,19 @@
 .header {
+    display: flex;
+    align-items: center;
     top: 0;
     position: fixed;
     z-index: 100;
     padding: 0.8rem;
     width: 100vw;
+    height: 7rem;
     background: rgba(255, 255, 255, 0.95);
 }
 .header_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     max-width: var(--max-width);
     min-width: var(--min-width);
     margin: 0 auto;

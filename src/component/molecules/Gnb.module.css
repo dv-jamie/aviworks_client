@@ -20,7 +20,7 @@
 }
 .gnb_mobile {
     position: absolute;
-    top: 5.9rem;
+    top: 7rem;;
     left: 0;
     z-index: 1000;
     display: none;
