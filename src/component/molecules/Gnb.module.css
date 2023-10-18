@@ -17,6 +17,7 @@
 .menu_icon {
     color: var(--gray-100);
     cursor: pointer;
+    font-display: block;
 }
 .gnb_mobile {
     position: absolute;

@@ -197,7 +197,7 @@ function Home() {
                             </div>
 
                             <ul className={styles.content_wrap}>
-                                <label className="sub-title-1">자율 추종/주행 기술</label>
+                                <label className="sub-title-1">스포츠용 고속/정밀 영상 촬영 시스템</label>
                                 <ul className={styles.detail_wrap}>
                                     <li className="body-text-1">AI 기반 에지 디바이스 설계 기술</li>
                                     <li className="body-text-1">Blurring 없는 고속 프레임 레이트 카메라 기술</li>

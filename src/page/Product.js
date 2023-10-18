@@ -71,7 +71,7 @@ function Product() {
                                     <span className={`impact-text-2 ${styles.unit}`}>개</span>
                                  </div>
                                  <p className="body-text-2">
-                                    하나의 스윙에서 얻어낸
+                                    하나의 스윙에서 얻어낸<br />
                                     스윙 모션 지표 Indicator의 개수
                                  </p>
                             </li>
@@ -173,7 +173,7 @@ function Product() {
                                         코칭/학습 기회 제공
                                     </div>
                                     <p className="body-text-2">
-                                        3부족하거나 개선해야 할 부분에 대해 정확한<br />
+                                        부족하거나 개선해야 할 부분에 대해 정확한<br />
                                         수치 데이터(그래프) 기반 학습 계획(커리큘럼)
                                     </p>
                                 </div>
@@ -280,7 +280,7 @@ function Product() {
                                 Caddie-Robot<br />
                                 Cloud Platform
                             </h2>
-                            <h3 className="heading-4">AI 기반 다 시점 3D 골프 스윙 분석 서비스</h3>
+                            <h3 className="heading-4">골프 대중화를 위한 혁신적인 캐디 로봇 플랫폼 서비스</h3>
                             <div className={styles.keyword_wrap}>
                                 <span>자율주행 골프 Trolley</span>
                                 <span>AI-based 3D 스윙 영상 분석</span>

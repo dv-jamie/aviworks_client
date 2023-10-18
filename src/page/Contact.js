@@ -175,11 +175,11 @@ function Contact() {
                             <ul className={styles.contact_number}>
                                 <li>
                                     <label>Tel. </label>
-                                    000-0000-0000
+                                    031-697-8386
                                 </li>
                                 <li>
                                     <label>Fax. </label>
-                                    000-0000-0000
+                                    0504-361-9288
                                 </li>
                             </ul>
                         </li>

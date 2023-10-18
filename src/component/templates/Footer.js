@@ -12,7 +12,7 @@ function Footer() {
                     </li>
                     <li>
                         <span>문의&#32;&#32;|</span>
-                        <span>info@aiviworks.com</span>
+                        <span>contact@aiviworks.com </span>
                     </li>
                 </ul>
 
