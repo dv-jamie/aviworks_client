@@ -214,6 +214,7 @@
     margin-bottom: 2.8rem;
 }
 .technology .keyword_wrap li {
+    font-weight: 500;
     color: var(--primary-blue-100);
 }
 
