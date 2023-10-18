@@ -164,7 +164,7 @@ function Product() {
                                 <div className={styles.text_wrap}>
                                     <div className={`sub-title-1 ${styles.title}`}>
                                         데이터 기반의<br />
-                                        정략적인 분석
+                                        정량적인 분석
                                     </div>
                                     <p className="body-text-2">정확하고 체계적인 코칭 및 학습 기회 제공</p>
                                     <p className={`body-text-2 ${styles.caption}`}>손목 각도 변화 그래프를 이용한 Casting 여부 판단</p>
