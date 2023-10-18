@@ -23,21 +23,29 @@ function Contact() {
     }
 
     const clickSendButton = () => {
-        console.log(`
-            회사 : ${inputCompany}
-            이름 : ${inputName}
-            연락처 : ${inputContact}
-            이메일 : ${inputEmail}
-            내용 : ${inputContent}
-        `)
-
-        setInputCompany("")
-        setInputName("")
-        setInputContact("")
-        setInputEmail("")
-        setInputContent("")
-
-        alert('메시지가 전송되었습니다.\n빠른 시일 내에 답변드리겠습니다 :)')
+        if(
+            inputCompany.length !== 0 &&
+            inputName.length !== 0 &&
+            inputContact.length !== 0 &&
+            inputEmail.length !== 0 &&
+            inputContent.length !== 0
+        ) {
+            console.log(`
+                회사 : ${inputCompany}
+                이름 : ${inputName}
+                연락처 : ${inputContact}
+                이메일 : ${inputEmail}
+                내용 : ${inputContent}
+            `)
+    
+            setInputCompany("")
+            setInputName("")
+            setInputContact("")
+            setInputEmail("")
+            setInputContent("")
+    
+            alert('메시지가 전송되었습니다.\n빠른 시일 내에 답변드리겠습니다 :)')
+        }
     }
 
     const initMap = useCallback(() => {
