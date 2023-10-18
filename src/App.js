@@ -12,30 +12,32 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Routes>
+        <Routes>
           <Route
-              element={
-                  <Layout language={language} />
-              }
+            element={
+            <Layout language={language} />
+            }
           >
-              <Route
-                  path="/"
-                  element={<Home />}
-              ></Route>
-              <Route
-                  path="/product"
-                  element={<Product />}
-                  ></Route>
-              <Route
-                  path="contact"
-                  element={<Contact />}
-                  ></Route>
-              <Route
-                  path="recruit"
-                  element={<Recruit />}
-              ></Route>
+          <Route
+            path="/"
+            element={<Home />}
+          ></Route>
+          <Route path="/product">
+            <Route path="" element={<Product />}></Route>
+            <Route path="swing-tracker" element={<Product />}></Route>
+            <Route path="a-scout" element={<Product />}></Route>
+            <Route path="caddie-robot" element={<Product />}></Route>
+          </Route>
+          <Route
+            path="contact"
+            element={<Contact />}
+          ></Route>
+          <Route
+            path="recruit"
+            element={<Recruit />}
+          ></Route>
 
-              <Route path="*" element={<Navigate to="/" />}></Route>
+          <Route path="*" element={<Navigate to="/" />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

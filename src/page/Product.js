@@ -1,15 +1,35 @@
-import { Link } from 'react-router-dom';
+import { useEffect, useRef } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Note, Play } from '../assets/icons';
 import { AScout, CaddieRobot, GolfClub1, GolfClub2, GolfClub3, MockupScreen1, MockupScreen2, MockupScreen3, Screen1, Screen2, SwingTracker } from '../assets/images';
 import styles from './Product.module.css'
 
 function Product() {
+    const productName = useLocation().pathname.substring(8)
+    const SwingTrackerSectionRef = useRef()
+    const AScoutSectionRef = useRef()
+    const CaddieRobotSectionRef = useRef()
+
+    useEffect(() => {
+        switch (productName) {
+            case "/swing-tracker" :
+                SwingTrackerSectionRef.current.scrollIntoView()
+                break
+            case "/a-scout" :
+                AScoutSectionRef.current.scrollIntoView()
+                break
+            case "/caddie-robot" :
+                CaddieRobotSectionRef.current.scrollIntoView()
+                break
+        }
+    }, [])
+
     return (
         <div className={styles.container}>
             <h1>product page</h1>
 
             {/* Swing Tracker */}
-            <div className={styles.swing_tracker}>
+            <div className={styles.swing_tracker} ref={SwingTrackerSectionRef}>
                 {/* Intro Section */}
                 <section className={styles.intro}>
                     <div className={styles.content_wrap}>
@@ -186,7 +206,7 @@ function Product() {
             {/* Swing Tracker Section 끝 */}
 
             {/* A-Scout Section */}
-            <div className={styles.a_scount}>
+            <div className={styles.a_scount} ref={AScoutSectionRef}>
                 {/* Intro Section */}
                 <section className={`${styles.intro} ${styles.a_scount}`}>
                     <div className={styles.content_wrap}>
@@ -267,7 +287,7 @@ function Product() {
             {/* A-Scout Section 끝 */}
 
             {/* Caddie-Robot Section */}
-            <div className={styles.caddie_robot}>
+            <div className={styles.caddie_robot} ref={CaddieRobotSectionRef}>
                 {/* Intro Section */}
                 <section className={`${styles.intro} ${styles.caddie_robot}`}>
                     <div className={styles.content_wrap}>
