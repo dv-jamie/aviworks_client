@@ -38,7 +38,7 @@ function Product() {
                             </h2>
                             <h3 className="heading-4">
                                 정밀한 AI 기반 3D 입체 분석을 통하여<br />
-                                체계적으로 당신의 골프 실력 향상을 향상시킵니다
+                                체계적으로 당신의 골프 실력을 향상시킵니다
                             </h3>
                         </div>
                         
