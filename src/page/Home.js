@@ -355,7 +355,15 @@ function Home() {
                         </li>
                         <li>
                             <p className="body-text-2">주식회사 에이비웍스</p>
-                            <p className="body-text-2">4차 산업 혁명을 이끄는 중견〮중소 기업 ‘4IR Awards’ 스타트업 부문 대상 (주최자 : 머니투데이)</p>
+                            <p className="body-text-2">
+                                4차 산업 혁명을 이끄는 중견〮중소 기업 ‘4IR Awards’ 스타트업 부문 대상 (주최자 : 머니투데이)
+                                <Link
+                                    to='https://news.mt.co.kr/mtview.php?no=2023101317163112591'
+                                    target='blank'
+                                >
+                                    <span class="material-symbols-outlined">link</span>
+                                </Link>
+                            </p>
                         </li>
                     </ul>
                 </div>

@@ -422,6 +422,9 @@
     font-weight: 700;
     color: var(--primary-blue-100);
 }
+.news .board span {
+    margin-left: 0.4rem;
+}
 
 @media screen and (max-width: 767px) {
     .container section > .content_wrap {
