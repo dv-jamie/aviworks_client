@@ -3,7 +3,6 @@
 }
 .container .content_wrap {
     max-width: var(--max-width);
-    min-width: var(--min-width);
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -61,7 +60,6 @@
     display: flex;
     align-items: center;
     width: 57.6rem;
-    min-width: 350px;
     padding: 3.6rem 1.6rem;
     border-radius: 3.2rem;
     background: #fff;
@@ -96,6 +94,7 @@
     */
     .board .board_wrap > li {
         flex-wrap: wrap;
+        width: 100%;
     }
     .board .board_wrap label {
         width: 100%;

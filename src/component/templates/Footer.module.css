@@ -7,7 +7,6 @@
 }
 .footer_inner {
     max-width: var(--max-wdith);
-    min-width: var(--min-wdith);
     padding: 0 2rem;
 }
 .footer li,

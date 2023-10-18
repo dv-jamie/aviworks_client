@@ -3,7 +3,6 @@
 }
 .container section > .content_wrap {
     max-width: var(--max-width);
-    min-width: var(--min-width);
     padding: 0 2rem;
     margin: 0 auto;
 }
@@ -433,6 +432,13 @@
     }
 
     /*
+    * Mission Section
+    */
+    .mission .image {
+        width: 100%;
+    }
+
+    /*
     * Way Section
     */
     .way .board > li {
@@ -449,6 +455,9 @@
     .production svg {
         top: -10rem;
         left: -1rem;
+    }
+    .production .product_list li {
+        width: 100%;
     }
 
     /*

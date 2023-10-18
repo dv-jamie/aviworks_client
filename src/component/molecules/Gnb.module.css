@@ -17,7 +17,7 @@
 .menu_icon {
     color: var(--gray-100);
     cursor: pointer;
-    font-display: block;
+    font-size: 3.8rem;
 }
 .gnb_mobile {
     position: absolute;
@@ -64,10 +64,4 @@
 }
 .visible {
     display: flex;
-}
-
-@media screen and (max-width: 767px) {
-    .menu_icon {
-        font-size: 5rem;
-    }
 }

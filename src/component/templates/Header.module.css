@@ -15,7 +15,6 @@
     align-items: center;
     width: 100%;
     max-width: var(--max-width);
-    min-width: var(--min-width);
     margin: 0 auto;
     padding: 0 2rem;
 }
