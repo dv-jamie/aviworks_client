@@ -29,6 +29,7 @@ function Gnb({ language, device, isMenuOpen, setIsMenuOpen }) {
 
     useEffect(() => {
         isMenuOpen && closeMenu()
+        window.scrollTo(0, 0);
     }, [pathname])
 
     return (
