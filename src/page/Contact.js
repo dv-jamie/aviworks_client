@@ -3,7 +3,42 @@ import { Send } from '../assets/icons';
 import styles from './Contact.module.css'
 
 function Contact() {
+    const [isFillInput, setIsFillInput] = useState(false)
+    const [inputCompany, setInputCompany] = useState("")
+    const [inputName, setInputName] = useState("")
+    const [inputContact, setInputContact] = useState("")
+    const [inputEmail, setInputEmail] = useState("")
+    const [inputContent, setInputContent] = useState("")
     const mapRef = useRef(null)
+
+    const checkInput = () => {
+        if(
+            inputCompany.length !== 0 &&
+            inputName.length !== 0 &&
+            inputContact.length !== 0 &&
+            inputEmail.length !== 0 &&
+            inputContent.length !== 0
+        )
+            setIsFillInput(true)
+    }
+
+    const clickSendButton = () => {
+        console.log(`
+            회사 : ${inputCompany}
+            이름 : ${inputName}
+            연락처 : ${inputContact}
+            이메일 : ${inputEmail}
+            내용 : ${inputContent}
+        `)
+
+        setInputCompany("")
+        setInputName("")
+        setInputContact("")
+        setInputEmail("")
+        setInputContent("")
+
+        alert('메시지가 전송되었습니다.\n빠른 시일 내에 답변드리겠습니다 :)')
+    }
 
     const initMap = useCallback(() => {
         const position = { lat: 37.4176482, lng: 127.1268875 }
@@ -19,6 +54,9 @@ function Contact() {
         });
     });
 
+    useEffect(() => {
+        checkInput()
+    }, [inputCompany, inputName, inputCompany, inputEmail, inputContent])
 
     useEffect(() => {
         initMap();
@@ -48,42 +86,68 @@ function Contact() {
                             <li className={styles.table_row}>
                                 <label>회사(소속)</label>
                                 <div className={styles.input_box}>
-                                    <input placeholder='에이비웍스' />
+                                    <input
+                                        placeholder='에이비웍스'
+                                        value={inputCompany}
+                                        onChange={(e) => setInputCompany(e.target.value)}
+                                    />
                                 </div>
                             </li>
 
                             <li className={styles.table_row}>
                                 <label>이름(직위)</label>
                                 <div className={styles.input_box}>
-                                    <input placeholder='홍길동 팀장' />
+                                    <input
+                                        placeholder='홍길동 팀장'
+                                        value={inputName}
+                                        onChange={(e) => setInputName(e.target.value)}
+                                    />
                                 </div>
                             </li>
 
                             <li className={styles.table_row}>
                                 <label>연락처</label>
                                 <div className={styles.input_box}>
-                                    <input placeholder='000-0000-0000' />
+                                    <input
+                                        placeholder='000-0000-0000'
+                                        value={inputContact}
+                                        onChange={(e) => setInputContact(e.target.value)}
+                                    />
                                 </div>
                             </li>
 
                             <li className={styles.table_row}>
                                 <label>이메일</label>
                                 <div className={styles.input_box}>
-                                    <input placeholder='abc123@gmail.com' />
+                                    <input
+                                        placeholder='abc123@gmail.com'
+                                        value={inputEmail}
+                                        onChange={(e) => setInputEmail(e.target.value)}
+                                    />
                                 </div>
                             </li>
 
                             <li className={styles.table_row}>
                                 <label>내용</label>
                                 <div className={styles.input_box}>
-                                    <textarea placeholder='내용 정보 입력' />
+                                    <input
+                                        placeholder='내용 정보 입력'
+                                        value={inputContent}
+                                        onChange={(e) => setInputContent(e.target.value)}
+                                    />
                                 </div>
                             </li>
                         </ul>
                     </div>
                     
-                    <button className={styles.send_button}>
-                        <div className={styles.button_content_wrap}>
+                    <button className={isFillInput
+                        ? styles.send_button
+                        : `${styles.send_button} ${styles.disabled}`
+                    }>
+                        <div
+                            className={styles.button_content_wrap}
+                            onClick={clickSendButton}
+                        >
                             <Send />
                             <span>문의하기</span>
                         </div>

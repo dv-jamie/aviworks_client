@@ -97,6 +97,10 @@
     background: var(--primary-blue-100);
     cursor: pointer;
 }
+.send_mail .disabled {
+    background: var(--gray-30);
+    cursor: default;
+}
 .send_mail .button_content_wrap {
     display: flex;
     justify-content: center;
