@@ -5,7 +5,7 @@ import { AScout, Basketball, BicycleRace, Building, CaddieRobot, Cameras, Fun, G
 import styles from './Home.module.css'
 
 function Home() {
-    const { t } = useTranslation("home")
+    const { t, i18n } = useTranslation("home")
 
     return (
         <div className={styles.container}>
@@ -211,10 +211,16 @@ function Home() {
                 <div className={styles.content_wrap}>
                     <CloudService />
 
-                    <div className={styles.title_wrap}>
-                        <h3 className="heading-3">{t("production.sub_title")}</h3>
-                        <h2 className="heading-1">{t("production.title")}</h2>
-                    </div>
+                    {i18n.language === "ko"
+                        ? <div className={styles.title_wrap}>
+                            <h3 className="heading-3">{t("production.sub_title")}</h3>
+                            <h2 className="heading-1">{t("production.title")}</h2>
+                        </div>
+                        : <div className={styles.title_wrap}>
+                            <h2 className="heading-1">{t("production.title")}</h2>
+                            <h3 className="heading-3">{t("production.sub_title")}</h3>
+                        </div>
+                    }
 
                     <ul className={styles.product_list}>
                         <li>
