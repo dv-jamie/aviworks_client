@@ -239,7 +239,7 @@ function Home() {
                                 <div className="sub-title-1">A-Scout</div>
                                 <p className="body-text-1">{t("production.desc_2")}</p>
                                 <button>
-                                    <Link to="/product/swing-tracker">{t("production.detail_button")} →</Link>
+                                    <Link to="/product/a-scout">{t("production.detail_button")} →</Link>
                                 </button>
                             </div>
                         </li>
@@ -255,7 +255,7 @@ function Home() {
                                 </div>
                                 <p className="body-text-1">{t("production.desc_3")}</p>
                                 <button>
-                                    <Link to="/product/swing-tracker">{t("production.detail_button")} →</Link>
+                                    <Link to="/product/caddie-robot">{t("production.detail_button")} →</Link>
                                 </button>
                             </div>
                         </li>
