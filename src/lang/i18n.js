@@ -20,7 +20,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "ko",
+    lng: "en",
     ns:['home'],
   })
 

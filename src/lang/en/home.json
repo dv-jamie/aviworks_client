@@ -2,10 +2,114 @@
     "mission": {
         "title":"Be a global leading sports tech\nplatform company to make sports",
         "keywords": {
-            "keyword_1": "much easier,",
-            "keyword_2": "more enjoyable,",
-            "keyword_3": "perform better,"
+            "keyword_1": "Much Easier,",
+            "keyword_2": "More Enjoyable,",
+            "keyword_3": "Perform Better,"
         },
-        "sub_title": "for everyone"
+        "sub_title": {
+            "part_1": "",
+            "part_2": "for everyone",
+            "part_3": ""
+        }
+    },
+    "goal": {
+        "title": "Our goal is",
+        "description": {
+            "part_1": "to bring greater joy and pleasure",
+            "part_2": "to more people by enhancing",
+            "part_3": "their sports experiences through"
+        },
+        "sub_title": "innovative, tangible, accessible\nand sustainable technology\nand solutions"
+    },
+    "way": {
+        "sub_title": "Through improvement of golf skills, enjoyment,\nand social networking",
+        "title": "Create a healthy golf culture\nfor public health",
+        "board_1": {
+            "desc_1": "3D Golf Swing Analysis & Swing Pose Detection",
+            "desc_2": "AI Golf Club Fitting Service",
+            "desc_3": "Online Golf Lesson",
+            "desc_4": "AI Coaching and Self-Learning"
+        },
+        "board_2": {
+            "desc_1": "Global Mentor Networking",
+            "desc_2": "Market Place Platform",
+            "desc_3": "Domain Expert Networking"
+        },
+        "board_3": {
+            "desc_1": "Online Screen Golf Tournament",
+            "desc_2": "Networking with Professional Golfers Online",
+            "desc_3": "Fun Golf Classes for Children and Teenagers",
+            "desc_4": "Play that Family and Friends\ncan Enjoy Together"
+        },
+        "board_4": {
+            "desc_1": "Popular Sports for Health Promotion",
+            "desc_2": "Self-Round, Building a Walking Golf Culture\n(No Caddie, No Cart)"
+        }
+    },
+    "technology": {
+        "sub_title": "Incorporating the Technologies of the 4th Industry",
+        "title": "Aiviwork's Core Technologies",
+        "board_1": {
+            "title": "Autonomous Tracking/Driving Technology",
+            "desc_1": "3D Vision, Lidar, Radar-based Golfer Tracking and Self-Following Technology",
+            "desc_2": "Precision motor control, network, and 5G/LTE integration Technology",
+            "desc_3": "AI-based Edge Device Technology (motion, face, gesture recognition)",
+            "desc_4": "Efficient Big Data Management Technology"
+        },
+        "board_2": {
+            "title": "Real-time 3D Swing Analysis Technology",
+            "desc_1": "Real-time AI-based Swing Analysis (3D Avatar)",
+            "desc_2": "Generate Precise 3D Analysis Data for Each Swing Phase\n(Hip / Shoulder Rotation, Spine angle, Sway, X-factor…)",
+            "desc_3": "User-friendly UI/UX for Swing Analysis and Coaching",
+            "desc_4": "Golf Ball Tracking and Analysis Technology"
+        },
+        "board_3": {
+            "title": "Sports-specialized High-speed / Precision Video Recording Camera Technology",
+            "desc_1": "AI-based Edge Device Design Technology",
+            "desc_2": "Blur-free, High-Speed Frame Rate Camera Technology",
+            "desc_3": "Image Processing Technology in the Low Illumination Environment",
+            "desc_4": "Equipped with High-Performance Lenses for Wide-Angle and High-Definition Capabilities"
+        }
+    },
+    "production": {
+        "sub_title": "에이비웍스의 빅데이터 기반",
+        "title": "주요 서비스",
+        "desc_1": "AI-based multi-view\n3D swing analysis service",
+        "desc_2": "High-speed/precision\nvideo cameras specialized\nfor various sports",
+        "desc_3": "Innovative caddie robot\nplatform service\nfor golf popularization",
+        "detail_button": "read more"
+    },
+    "history": {
+        "title": " Aiviworks continues\nto move forward",
+        "list_1": {
+            "month": "April",
+            "desc": "Establishment of a Corporation"
+        },
+        "list_2": {
+            "month": "July",
+            "desc": "Launching of A-Scout series,\nhigh-speed/precision camera\nfor sports video shooting"
+        },
+        "list_3": {
+            "month": "August",
+            "desc": "Patent Application No. 1"
+        },
+        "list_4": {
+            "month": "October",
+            "desc": "AI-based 3D Golf Swing Video\nAnalysis Service “3D Swing Tracker”\nLaunching Event"
+        },
+        "list_5": {
+            "month": "October",
+            "desc": "Small and Medium Businesses\nLeading the 4th Industrial Revolution\n4IR Awards Grand Prize for Startup\n(Organizer: “Money Today”)"
+        }
+    },
+    "news": {
+        "list_1": {
+            "title": "AIVIWORKS Inc.",
+            "desc": "AI-based 3D Golf Swing Video Analysis Service “3D Swing Tracker” Launching Event"
+        },
+        "list_2": {
+            "title": "AIVIWORKS Inc.",
+            "desc": "Small and Medium Businesses Leading the 4th  Industrial Revolution 4IR Awards Grand Prize for Startup (Organizer: Money Today)"
+        }
     }
 }

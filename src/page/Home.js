@@ -29,13 +29,14 @@ function Home() {
                         <h2>
                             <ul className={styles.keyword_wrap}>
                                 <li className="heading-1">{t("mission.keywords.keyword_1")}</li>
-                                <li className="heading-1">좀 더 즐겁게,</li>
-                                <li className="heading-1">좀 더 잘 할 수 있게,</li>
+                                <li className="heading-1">{t("mission.keywords.keyword_2")}</li>
+                                <li className="heading-1">{t("mission.keywords.keyword_3")}</li>
                             </ul>
                         </h2>
                         <p className="heading-3">
-                            <span className="heading-3">국내 최고의 스포츠 플랫폼</span>을 만드는<br />
-                            스포츠테크 기업이 되고자 합니다
+                            <span className="heading-3">{t("mission.sub_title.part_1")}</span>
+                            {t("mission.sub_title.part_2")}<br />
+                            {t("mission.sub_title.part_3")}
                         </p>
                     </div>
 
@@ -65,16 +66,13 @@ function Home() {
 
             {/* Goal Section */}
             <section className={styles.goal}>
-                <h2 className="heading-1">우리의 목표는</h2>
+                <h2 className="heading-1">{t("goal.title")}</h2>
                 <p className="sub-title-1">
-                    혁신적이고, 분명하며, 용이하고,<br />
-                    지속 가능한 기술과 솔루션을 통해<br />
-                    스포츠 경험을 향상시킴으로써
+                    {t("goal.description.part_1")}<br />
+                    {t("goal.description.part_2")}<br />
+                    {t("goal.description.part_3")}
                 </p>
-                <p className="heading-3">
-                    더 많은 사람들에게 더 큰 기쁨과<br />
-                    즐거움을 제공하는 것입니다
-                </p>
+                <p className="heading-3">{t("goal.sub_title")}</p>
             </section>
             {/* Goal Section 끝 */}
 
@@ -82,11 +80,8 @@ function Home() {
             <section className={styles.way}>
                 <div className={styles.content_wrap}>
                     <div className={styles.title_wrap}>
-                        <h3 className="heading-3">골프 실력 향상, 즐거움, 사회적 네트워킹을 통해</h3>
-                        <h2 className="heading-1">
-                            새로운 국민 건강을 위한<br />
-                            건전한 골프 문화 창조
-                        </h2>
+                        <h3 className="heading-3">{t("way.sub_title")}</h3>
+                        <h2 className="heading-1">{t("way.title")}</h2>
                     </div>
                     
                     <div className={styles.board_wrap}>
@@ -98,40 +93,37 @@ function Home() {
                             <li>
                                 <label className="sub-title-1">Self-Skill Improvement</label>
                                 <ul className={styles.detail_wrap}>
-                                    <li className="body-text-1">3D 골프 스윙 분석 & 스윙 자세 검출</li>
-                                    <li className="body-text-1">AI 골프 클럽 Fitting Service</li>
-                                    <li className="body-text-1">온라인을 통한 골프 레슨</li>
-                                    <li className="body-text-1">AI 코칭 및 자가 학습</li>
+                                    <li className="body-text-1">{t("way.board_1.desc_1")}</li>
+                                    <li className="body-text-1">{t("way.board_1.desc_2")}</li>
+                                    <li className="body-text-1">{t("way.board_1.desc_3")}</li>
+                                    <li className="body-text-1">{t("way.board_1.desc_4")}</li>
                                 </ul>
                                 <img src={GolfPose} alt="골프 자세 일러스트" />
                             </li>
                             <li>
                                 <label className="sub-title-1">Social Networking</label>
                                 <ul className={styles.detail_wrap}>
-                                    <li className="body-text-1">Global Mentor Networking</li>
-                                    <li className="body-text-1">Market Place Platform</li>
-                                    <li className="body-text-1">Domain Expert Networking</li>
+                                    <li className="body-text-1">{t("way.board_2.desc_1")}</li>
+                                    <li className="body-text-1">{t("way.board_2.desc_2")}</li>
+                                    <li className="body-text-1">{t("way.board_2.desc_3")}</li>
                                 </ul>
                                 <img src={Networking} alt="네트워킹 일러스트" />
                             </li>
                             <li>
                                 <label className="sub-title-1">Fun</label>
                                 <ul className={styles.detail_wrap}>
-                                    <li className="body-text-1">온라인 스크린 골프 대회</li>
-                                    <li className="body-text-1">온라인을 통한 프로 골퍼와의 Networking</li>
-                                    <li className="body-text-1">어린이ㆍ청소년 대상 즐거운 골프 교실</li>
-                                    <li className="body-text-1">가족ㆍ친구들이 함께 즐길 수 있는 놀이</li>
+                                    <li className="body-text-1">{t("way.board_3.desc_1")}</li>
+                                    <li className="body-text-1">{t("way.board_3.desc_2")}</li>
+                                    <li className="body-text-1">{t("way.board_3.desc_3")}</li>
+                                    <li className="body-text-1">{t("way.board_3.desc_4")}</li>
                                 </ul>
                                 <img src={Fun} alt="즐거운 일러스트" />
                             </li>
                             <li>
                                 <label className="sub-title-1">New Culture</label>
                                 <ul className={styles.detail_wrap}>
-                                    <li className="body-text-1">건강 증진 위한 대중 스포츠화</li>
-                                    <li className="body-text-1">
-                                        셀프라운딩, 워킹 골프 문화 구축<br />
-                                        (No Caddie, No Cart)
-                                    </li>
+                                    <li className="body-text-1">{t("way.board_4.desc_1")}</li>
+                                    <li className="body-text-1">{t("way.board_4.desc_2")}</li>
                                 </ul>
                                 <img src={GolfCulture} alt="골프 문화 일러스트" />
                             </li>
@@ -159,8 +151,8 @@ function Home() {
                     </ul>
 
                     <div className={styles.title_wrap}>
-                        <h3 className="heading-3">4차 산업의 기술을 접목한 에이비웍스의</h3>
-                        <h2 className="heading-1">주요 핵심 기술</h2>
+                        <h3 className="heading-3">{t("technology.sub_title")}</h3>
+                        <h2 className="heading-1">{t("technology.title")}</h2>
                     </div>
 
                     <ul className={styles.list}>
@@ -170,12 +162,12 @@ function Home() {
                             </div>
 
                             <ul className={styles.content_wrap}>
-                                <label className="sub-title-1">자율 추종/주행 기술</label>
+                                <label className="sub-title-1">{t("technology.board_1.title")}</label>
                                 <ul className={styles.detail_wrap}>
-                                    <li className="body-text-1">3D 비전, Lidar, Radar 기반의 골퍼 추적 및 자율 추종 기술</li>
-                                    <li className="body-text-1">정밀 모터 제어, 네트워크, 5G/LTE 연동 기술</li>
-                                    <li className="body-text-1">AI 에지 디바이스 기반 알고리즘 개발 기술 (얼굴 감지, 모션 감지, 제스처 인식 등)</li>
-                                    <li className="body-text-1">효율적인 대용량 동영상 저장 및 전송, 관리 기술 (Cloud/Data 관리/데이터 분류/데이터 분석)</li>
+                                    <li className="body-text-1">{t("technology.board_1.desc_1")}</li>
+                                    <li className="body-text-1">{t("technology.board_1.desc_2")}</li>
+                                    <li className="body-text-1">{t("technology.board_1.desc_3")}</li>
+                                    <li className="body-text-1">{t("technology.board_1.desc_4")}</li>
                                 </ul>
                             </ul>
                         </li>
@@ -185,12 +177,12 @@ function Home() {
                             </div>
 
                             <ul className={styles.content_wrap}>
-                                <label className="sub-title-1">실시간 3D 스윙 분석 기술</label>
+                                <label className="sub-title-1">{t("technology.board_2.title")}</label>
                                 <ul className={styles.detail_wrap}>
-                                    <li className="body-text-1">AI 기반 3D 골프 스윙 분석 기술</li>
-                                    <li className="body-text-1">스윙 단계별 3D 기반 정밀 데이터 생성 및 분석</li>
-                                    <li className="body-text-1">직관적인 분석 및 코칭을 위한 사용자 친화적 UI/UX</li>
-                                    <li className="body-text-1">Golf Ball 트래킹 및 분석 기술</li>
+                                    <li className="body-text-1">{t("technology.board_2.desc_1")}</li>
+                                    <li className="body-text-1">{t("technology.board_2.desc_2")}</li>
+                                    <li className="body-text-1">{t("technology.board_2.desc_3")}</li>
+                                    <li className="body-text-1">{t("technology.board_2.desc_4")}</li>
                                 </ul>
                             </ul>
                         </li>
@@ -200,12 +192,12 @@ function Home() {
                             </div>
 
                             <ul className={styles.content_wrap}>
-                                <label className="sub-title-1">스포츠용 고속/정밀 영상 촬영 시스템</label>
+                                <label className="sub-title-1">{t("technology.board_3.title")}</label>
                                 <ul className={styles.detail_wrap}>
-                                    <li className="body-text-1">AI 기반 에지 디바이스 설계 기술</li>
-                                    <li className="body-text-1">Blurring 없는 고속 프레임 레이트 카메라 기술</li>
-                                    <li className="body-text-1">저조도 환경에서도 최상의 화질 구현을 위한 이미지 처리 기술</li>
-                                    <li className="body-text-1">와이드 앵글 및 고화질을 위한 고성능 렌즈 탑재</li>
+                                    <li className="body-text-1">{t("technology.board_3.desc_1")}</li>
+                                    <li className="body-text-1">{t("technology.board_3.desc_2")}</li>
+                                    <li className="body-text-1">{t("technology.board_3.desc_3")}</li>
+                                    <li className="body-text-1">{t("technology.board_3.desc_4")}</li>
                                 </ul>
                             </ul>
                         </li>
@@ -220,8 +212,8 @@ function Home() {
                     <CloudService />
 
                     <div className={styles.title_wrap}>
-                        <h3 className="heading-3">에이비웍스의 빅데이터 기반</h3>
-                        <h2 className="heading-1">주요 서비스</h2>
+                        <h3 className="heading-3">{t("production.sub_title")}</h3>
+                        <h2 className="heading-1">{t("production.title")}</h2>
                     </div>
 
                     <ul className={styles.product_list}>
@@ -232,12 +224,9 @@ function Home() {
 
                             <div className={styles.content_wrap}>
                                 <div className="sub-title-1">3D Swing Tracker</div>
-                                <p className="body-text-1">
-                                    AI 기반 다 시점<br />
-                                    3D 골프 스윙 분석 서비스
-                                </p>
+                                <p className="body-text-1">{t("production.desc_1")}</p>
                                 <button>
-                                    <Link to="/product/swing-tracker">자세히 보기 →</Link>
+                                    <Link to="/product/swing-tracker">{t("production.detail_button")} →</Link>
                                 </button>
                             </div>
                         </li>
@@ -248,12 +237,9 @@ function Home() {
 
                             <div className={styles.content_wrap}>
                                 <div className="sub-title-1">A-Scout</div>
-                                <p className="body-text-1">
-                                    다양한 스포츠에 특화된<br />
-                                    고속/정밀 영상 촬영 카메라
-                                </p>
+                                <p className="body-text-1">{t("production.desc_2")}</p>
                                 <button>
-                                    <Link to="/product/a-scout">자세히 보기 →</Link>
+                                    <Link to="/product/swing-tracker">{t("production.detail_button")} →</Link>
                                 </button>
                             </div>
                         </li>
@@ -267,12 +253,9 @@ function Home() {
                                     Caddie-Robot<br />
                                     Platform Service
                                 </div>
-                                <p className="body-text-1">
-                                    골프 대중화를 위한 혁신적인<br />
-                                    캐디 로봇 플랫폼 서비스
-                                </p>
+                                <p className="body-text-1">{t("production.desc_3")}</p>
                                 <button>
-                                    <Link to="/product/caddie-robot">자세히 보기 →</Link>
+                                    <Link to="/product/swing-tracker">{t("production.detail_button")} →</Link>
                                 </button>
                             </div>
                         </li>
@@ -285,10 +268,7 @@ function Home() {
             <section className={styles.history}>
                 <div className={styles.content_wrap}>
                     <div className={styles.title_wrap}>
-                        <h2 className="heading-1">
-                            에이비웍스는<br />
-                            계속해서 나아갑니다
-                        </h2>
+                        <h2 className="heading-1">{t("history.title")}</h2>
                     </div>
 
                     <div className={styles.board}>
@@ -310,34 +290,24 @@ function Home() {
                             <li className={`sub-title-1 ${styles.year}`}>2023</li>
                             <ul className={styles.month}>
                                 <li>
-                                    <label className="body-text-1">4월</label>
-                                    <p className="body-text-1">법인 설립</p>
+                                    <label className="body-text-1">{t("history.list_1.month")}</label>
+                                    <p className="body-text-1">{t("history.list_1.desc")}</p>
                                 </li>
                                 <li>
-                                    <label className="body-text-1">7월</label>
-                                    <p className="body-text-1">
-                                        스포츠 영상 촬영용 고속/정밀 카메라,<br />
-                                        A-Scout 시리즈 런칭
-                                    </p>
+                                    <label className="body-text-1">{t("history.list_2.month")}</label>
+                                    <p className="body-text-1">{t("history.list_2.desc")}</p>
                                 </li>
                                 <li>
-                                    <label className="body-text-1">8월</label>
-                                    <p className="body-text-1">제1호 특허 출원</p>
+                                    <label className="body-text-1">{t("history.list_3.month")}</label>
+                                    <p className="body-text-1">{t("history.list_3.desc")}</p>
                                 </li>
                                 <li>
-                                    <label className="body-text-1">10월</label>
-                                    <p className="body-text-1">
-                                        AI 기반 3D 골프 스윙 영상 분석 서비스<br />
-                                        3D Swing Tracker 런칭 행사 진행
-                                    </p>
+                                    <label className="body-text-1">{t("history.list_4.month")}</label>
+                                    <p className="body-text-1">{t("history.list_4.desc")}</p>
                                 </li>
                                 <li>
-                                    <label className="body-text-1">10월</label>
-                                    <p className="body-text-1">
-                                        4차 산업 혁명을 이끄는 중견ㆍ중소 기업<br />
-                                        4IR Awards 스타트업 부문 대상<br />
-                                        (주최자 : 머니투데이)
-                                    </p>
+                                    <label className="body-text-1">{t("history.list_5.month")}</label>
+                                    <p className="body-text-1">{t("history.list_5.desc")}</p>
                                 </li>
                             </ul>
                         </ul>
@@ -353,13 +323,13 @@ function Home() {
                     
                     <ul className={styles.board}>
                         <li>
-                            <p className="body-text-2">주식회사 에이비웍스</p>
-                            <p className="body-text-2">AI 기반 3D 골프 스윙 영상 분석 서비스 “3D Swing Tracker” 런칭 행사 진행</p>
+                            <p className="body-text-2">{t("news.list_1.title")}</p>
+                            <p className="body-text-2">{t("news.list_1.desc")}</p>
                         </li>
                         <li>
-                            <p className="body-text-2">주식회사 에이비웍스</p>
+                            <p className="body-text-2">{t("news.list_2.title")}</p>
                             <p className="body-text-2">
-                                4차 산업 혁명을 이끄는 중견〮중소 기업 ‘4IR Awards’ 스타트업 부문 대상 (주최자 : 머니투데이)
+                                {t("news.list_2.desc")}
                                 <Link
                                     to='https://news.mt.co.kr/mtview.php?no=2023101317163112591'
                                     target='blank'
