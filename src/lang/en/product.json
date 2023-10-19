@@ -1,0 +1,103 @@
+{
+    "swing_tracker": {
+        "title": "3D\nSwing Tracker",
+        "sub_title": "AI-based multi-view 3D swing analysis service",
+        "data": {
+            "title": "Improve Your Golf Skills Systematically\nthrough Precise AI-based 3D Stereoscopic Analysis",
+            "list_1": {
+                "number": "2",
+                "unit": "year",
+                "desc": "Period of Data Acquisition\nand Deep Learning Training by\nAge, Race, Gender, and Body Type"
+            },
+            "list_2": {
+                "number": "78",
+                "unit": "",
+                "desc": "Number of\nGolf Motion Information Trackers\nQuantified for Each Video Frame"
+            },
+            "list_3": {
+                "number": "101",
+                "unit": "",
+                "desc": "Number of\nSwing Motion Indicators\nObtained from One Swing"
+            }
+        },
+        "summary": {
+            "list_1": {
+                "title": "AI-based 3D stereoscopic analysis",
+                "desc": "Systematic and precise analysis based on biomechanics"
+            },
+            "list_2": {
+                "title": "Over 100 analytical data",
+                "desc": "100 analysis data with stereoscopic swing videos from multiple viewpoints (six directions)"
+            },
+            "list_3": {
+                "title": "Precise numerical data",
+                "desc": "Precise numerical data on 3D-based rotation information (shoulder rotation angle, hip rotation angle), head and chest movement degree, spine angle, sway, X-factor, etc."
+            },
+            "video_button": "Go to Video"
+        },
+        "description": {
+            "sub_title": "with precision-measured data\nand quantified information,",
+            "title": "Systematic coaching\nand learning opportunities",
+            "list_1": {
+                "title": "Quantitative\ndata-driven analysis",
+                "desc": "Accurate and systematic coaching and learning opportunities",
+                "caption": "Determining Casting Using Wrist Angle Change Graph"
+            },
+            "list_2": {
+                "title": "Precise Data",
+                "desc": "Turn, Angle, Head Up, Sway, X-Factor, etc.",
+                "caption": "Fixed an invalid 2D based swing analysis issue"
+            },
+            "list_3": {
+                "title": "Coaching/learning opportunities in each swing step",
+                "desc": "Learning plan (curriculum) based on accurate numerical data (graphs) for areas that are lacking or need improvement"
+            }
+        }
+    },
+    "a_scout": {
+        "title": "A-Scout\nSports Camera",
+        "sub_title": "High-speed/precision video camera\nspecialized for various sports",
+        "summary": {
+            "list_1": {
+                "title": "High-speed precision shooting",
+                "desc": "In sports such as golf, tennis, and soccer, you can shoot fast moving objects with high speed and precision"
+            },
+            "list_2": {
+                "title": "Video optimized for golf swing analysis",
+                "desc": "The best golf swing video in golf swing analysis using 3D Swing Tracker"
+            },
+            "button_1": "A-Scout_HE Spec.",
+            "button_2": "A-Scout_LE Spec."
+        }
+    },
+    "caddie_robot": {
+        "title": "Caddie-Robot\nCloud Platform",
+        "sub_title": "Innovative Caddie Robot Platform Service\nfor Golf Popularization",
+        "keyword_1": "Autonomous Golf Trolley",
+        "keyword_2": "Caddie service",
+        "keyword_3": "AI-based 3D swing video analysis",
+        "value": {
+            "title": "Caddie Robot\nCloud Platform Service\n3 Key Core Values",
+            "sub_title": "Experience an innovative round of golf\nwhere you enjoy nature and health at the same time",
+            "list_1": {
+                "title": "COST Saving",
+                "sub_title": "",
+                "desc_1": "Popularize the Golf minimizing the cost",
+                "desc_2": "Wellness / Health Improvement (Walking Golf)"
+            },
+            "list_2": {
+                "title": "CONVENIENCE",
+                "sub_title": "(Platform Service)",
+                "desc_1": "Caddie Service for Walking Golf Play Tracking Service based on Cloud Platform",
+                "desc_2": "customized field data for each golfer based on big data including golf course information, score registration, remaining distance information, etc."
+            },
+            "list_3": {
+                "title": "AI-based\n3D Swing Tracker",
+                "sub_title": "",
+                "desc_1": "Swing Video Recoding Services in the field Swing Video Albums/Video Clip",
+                "desc_2": "AI-based 3D Swing Analysis in real time",
+                "desc_3": "Global Coaching Network"
+            }
+        }
+    }
+}

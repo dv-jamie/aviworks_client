@@ -5,7 +5,7 @@ import { AScout, Basketball, BicycleRace, Building, CaddieRobot, Cameras, Fun, G
 import styles from './Home.module.css'
 
 function Home() {
-    const { t } = useTranslation()
+    const { t } = useTranslation("home")
 
     return (
         <div className={styles.container}>

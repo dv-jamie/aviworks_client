@@ -3,15 +3,20 @@ import { initReactI18next } from "react-i18next";
 
 import LanguaeDetector from "i18next-browser-languagedetector";
 
-import TranslationHomeKo from "./ko/home.json";
-import TranslationHomeEn from "./en/home.json";
+import HomeKo from "./ko/home.json";
+import ProductKo from "./ko/product.json";
+
+import HomeEn from "./en/home.json";
+import ProductEn from "./en/product.json";
 
 const resources = {
   ko: {
-    home: TranslationHomeKo,
+    home: HomeKo,
+    product: ProductKo
   },
   en: {
-    home: TranslationHomeEn,
+    home: HomeEn,
+    product: ProductEn
   },
 };
 
@@ -21,7 +26,6 @@ i18n
   .init({
     resources,
     lng: "en",
-    ns:['home'],
   })
 
 export default i18n;
