@@ -48,6 +48,7 @@
 .mission .title_wrap {
     display: flex;
     flex-direction: column;
+    white-space: pre-line;
 }
 .mission .title_wrap p,
 .mission .title_wrap p span {

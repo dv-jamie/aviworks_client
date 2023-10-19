@@ -3,10 +3,10 @@ import Header from "./Header";
 import Footer from "./Footer";
 import styles from "./Layout.module.css";
 
-function Layout({ language }) {
+function Layout() {
     return (
         <div className={styles.container}>
-            <Header language={language} />
+            <Header />
             <Outlet />
             <Footer />
         </div>

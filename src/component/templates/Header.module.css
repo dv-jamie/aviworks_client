@@ -43,9 +43,6 @@
     background: #fff;
     box-shadow: 0.2rem 0.2rem 0.9rem var(--box-shadow);
 }
-.selectbox_language:hover .language_list {
-    display: block;
-}
 .selectbox_language li {
     color: var(--gray-30);
     padding: 0.4rem 1.2rem;
@@ -57,20 +54,15 @@
 /*
 * toggle visible
 */
-header.visible {
-    top: 0;
-    transition: top 0.4s ease-out;
-}
-header.hidden {
-    top: -8rem;
-    transition: top 0.4s ease-out;
-}
-
 div.visible {
     display: flex;
 }
 div.hidden {
     display: none;
+}
+
+.selectbox_language ul.visible {
+    display: block;
 }
 
 @media screen and (max-width: 767px) {

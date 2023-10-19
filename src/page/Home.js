@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { CloudService } from '../assets/icons';
 import { AScout, Basketball, BicycleRace, Building, CaddieRobot, Cameras, Fun, Golf, GolfCulture, GolfPose, Handshaking, Networking, Robot, Soccer, SwingAnalyze, SwingTracker, TennisLesson, Trophy, Volleyball } from '../assets/images';
 import styles from './Home.module.css'
 
 function Home() {
+    const { t } = useTranslation()
+
     return (
         <div className={styles.container}>
             <h1>home page</h1>
@@ -22,7 +25,7 @@ function Home() {
             <section className={styles.mission}>
                 <div className={styles.content_wrap}>
                     <div className={styles.title_wrap}>
-                        <p className="heading-3">모든 사람들이 스포츠를</p>
+                        <p className="heading-3">{t("misson.title")}</p>
                         <h2>
                             <ul className={styles.keyword_wrap}>
                                 <li className="heading-1">좀 더 쉽게,</li>

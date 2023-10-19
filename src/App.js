@@ -7,15 +7,13 @@ import Contact from "./page/Contact";
 import Recruit from "./page/Recruit";
 
 function App() {
-  const [language, setLanguage] = useState("한국어");
-  
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route
             element={
-            <Layout language={language} />
+            <Layout />
             }
           >
           <Route

@@ -1,9 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import styles from "./Gnb.module.css";
 
-function Gnb({ language, device, isMenuOpen, setIsMenuOpen }) {
+function Gnb({ device, isMenuOpen, setIsMenuOpen, changeLanguage }) {
+    const { i18n } = useTranslation()
     const { pathname } = useLocation()
+
     const menuRef = useRef(null)
     const menuIcon = isMenuOpen ? "close" : "menu"
 
@@ -25,6 +28,11 @@ function Gnb({ language, device, isMenuOpen, setIsMenuOpen }) {
         } else {
             openMenu()
         }
+    }
+
+    const clickLanguageButton = (e) => {
+        isMenuOpen && closeMenu()
+        changeLanguage(e.target.id)
     }
 
     useEffect(() => {
@@ -113,16 +121,20 @@ function Gnb({ language, device, isMenuOpen, setIsMenuOpen }) {
                         {/* 언어 선택 */}
                         <ul className={styles.language_list}>
                             <li
-                                className={language === "한국어"
+                                id="ko"
+                                className={i18n.language === "ko"
                                     ? styles.selected
                                     : ""
                                 }
+                                onClick={clickLanguageButton}
                             >한국어</li>
                             <li
-                                className={language === "English"
+                                id="en"
+                                className={i18n.language === "en"
                                     ? styles.selected
                                     : ""
                                 }
+                                onClick={clickLanguageButton}
                             >English</li>
                         </ul>
                     </ul>
