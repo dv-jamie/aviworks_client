@@ -22,6 +22,7 @@ function Header() {
 
     const changeLanguage = (lang) => {
         i18n.changeLanguage(lang)
+        localStorage.setItem("language", i18n.language)
     }
 
     const clickLanguageButton = (e) => {

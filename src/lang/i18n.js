@@ -37,7 +37,11 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "en",
+    lng: "ko",
   })
+
+let language = localStorage.getItem("language");
+
+if(language !== null) i18n.changeLanguage(language);
 
 export default i18n;
