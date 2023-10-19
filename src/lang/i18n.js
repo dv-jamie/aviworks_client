@@ -7,11 +7,13 @@ import HomeKo from "./ko/home.json";
 import ProductKo from "./ko/product.json";
 import ContactKo from "./ko/contact.json";
 import FooterKo from "./ko/footer.json";
+import RecruitKo from "./ko/recruit.json";
 
 import HomeEn from "./en/home.json";
 import ProductEn from "./en/product.json";
 import ContactEn from "./en/contact.json";
 import FooterEn from "./en/footer.json";
+import RecruitEn from "./en/recruit.json";
 
 const resources = {
   ko: {
@@ -19,12 +21,14 @@ const resources = {
     product: ProductKo,
     contact: ContactKo,
     footer: FooterKo,
+    recruit: RecruitKo
   },
   en: {
     home: HomeEn,
     product: ProductEn,
     contact: ContactEn,
     footer: FooterEn,
+    recruit: RecruitEn
   },
 };
 

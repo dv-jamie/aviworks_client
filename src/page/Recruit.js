@@ -1,6 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import styles from './Recruit.module.css'
 
 function Recruit() {
+    const { t } = useTranslation('recruit')
+
     return (
         <div className={styles.container}>
             <h1>recruit page</h1>
@@ -8,12 +11,8 @@ function Recruit() {
             {/* Intro Section */}
             <section className={styles.intro}>
                 <div className={styles.content_wrap}>
-                    <h2 className="heading-1">
-                        에이비웍스 채용 페이지를
-                        <br />
-                        방문해 주셔서 감사합니다
-                    </h2>
-                    <h3 className="heading-3">우리는 당신의 잠재력을 펼칠 수 있는 기회를 제공합니다</h3>
+                    <h2 className="heading-1">{t("title")}</h2>
+                    <h3 className="heading-3">{t("sub_title")}</h3>
                 </div>
             </section>
             {/* Intro Section 끝 */}
@@ -21,7 +20,7 @@ function Recruit() {
             {/* Board Section */}
             <section className={styles.board}>
                 <div className={styles.content_wrap}>
-                    <h2 className="heading-2">현재 진행 중인 공고</h2>
+                    <h2 className="heading-2">{t("board_title")}</h2>
 
                     <ul className={styles.board_wrap}>
                         <li>
