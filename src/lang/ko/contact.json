@@ -1,0 +1,33 @@
+{
+    "aviworks": "에이비웍스",
+    "title": "에이비웍스와 함께\n스포츠산업의 혁신을 만들어보세요",
+    "send_mail": {
+        "title": "사업 제휴 / 투자 제안",
+        "row_1": {
+            "label": "회사(소속)",
+            "placeholder": "에이비웍스"
+        },
+        "row_2": {
+            "label": "이름(직위)",
+            "placeholder": "홍길동 팀장"
+        },
+        "row_3": {
+            "label": "연락처",
+            "placeholder": "000-0000-0000"
+        },
+        "row_4": {
+            "label": "이메일",
+            "placeholder": "abc123@gmail.com"
+        },
+        "row_5": {
+            "label": "내용",
+            "placeholder": "내용 정보 입력"
+        },
+        "button": "문의하기",
+        "alert": "메시지가 전송되었습니다.\n빠른 시일 내에 답변드리겠습니다 :)"
+    },
+    "location": {
+        "title": "오시는 길",
+        "address": "8F, 806, 7, Yanghyeon-ro 405beon-gil, Jungwon-gu, Seongnam-si, Gyeonggi-do, Republic of Korea"
+    }
+}

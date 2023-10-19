@@ -1,8 +1,11 @@
 import { useEffect, useRef, useCallback, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Send } from '../assets/icons';
 import styles from './Contact.module.css'
 
 function Contact() {
+    const { t } = useTranslation("contact")
+
     const [isFillInput, setIsFillInput] = useState(false)
     const [inputCompany, setInputCompany] = useState("")
     const [inputName, setInputName] = useState("")
@@ -44,7 +47,7 @@ function Contact() {
             setInputEmail("")
             setInputContent("")
     
-            alert('메시지가 전송되었습니다.\n빠른 시일 내에 답변드리겠습니다 :)')
+            alert(t("send_mail.alert"))
         }
     }
 
@@ -58,7 +61,7 @@ function Contact() {
         new window.google.maps.Marker({
             position,
             map: newMap,
-            title: '에이비웍스',
+            title: t("aviworks"),
         });
     });
 
@@ -76,26 +79,22 @@ function Contact() {
 
             {/* Intro Section */}
             <section className={styles.intro}>
-                <h2 className="heading-1">
-                    에이비웍스와 함께
-                    <br />
-                    스포츠산업의 혁신을 만들어보세요
-                </h2>
+                <h2 className="heading-1">{t("title")}</h2>
             </section>
             {/* Intro Section 끝 */}
 
             {/* Send Mail Section */}
             <section className={styles.send_mail}>
                 <div className={styles.content_wrap}>
-                    <h2 className="heading-2">사업 제휴 / 투자 제안</h2>
+                    <h2 className="heading-2">{t("send_mail.title")}</h2>
 
                     <div className={styles.table_wrap}>
                         <ul>
                             <li className={styles.table_row}>
-                                <label>회사(소속)</label>
+                                <label>{t("send_mail.row_1.label")}</label>
                                 <div className={styles.input_box}>
                                     <input
-                                        placeholder='에이비웍스'
+                                        placeholder={t("send_mail.row_1.placeholder")}
                                         value={inputCompany}
                                         onChange={(e) => setInputCompany(e.target.value)}
                                     />
@@ -103,10 +102,10 @@ function Contact() {
                             </li>
 
                             <li className={styles.table_row}>
-                                <label>이름(직위)</label>
+                                <label>{t("send_mail.row_2.label")}</label>
                                 <div className={styles.input_box}>
                                     <input
-                                        placeholder='홍길동 팀장'
+                                        placeholder={t("send_mail.row_2.placeholder")}
                                         value={inputName}
                                         onChange={(e) => setInputName(e.target.value)}
                                     />
@@ -114,10 +113,10 @@ function Contact() {
                             </li>
 
                             <li className={styles.table_row}>
-                                <label>연락처</label>
+                                <label>{t("send_mail.row_3.label")}</label>
                                 <div className={styles.input_box}>
                                     <input
-                                        placeholder='000-0000-0000'
+                                        placeholder={t("send_mail.row_3.placeholder")}
                                         value={inputContact}
                                         onChange={(e) => setInputContact(e.target.value)}
                                     />
@@ -125,10 +124,10 @@ function Contact() {
                             </li>
 
                             <li className={styles.table_row}>
-                                <label>이메일</label>
+                                <label>{t("send_mail.row_4.label")}</label>
                                 <div className={styles.input_box}>
                                     <input
-                                        placeholder='abc123@gmail.com'
+                                        placeholder={t("send_mail.row_4.placeholder")}
                                         value={inputEmail}
                                         onChange={(e) => setInputEmail(e.target.value)}
                                     />
@@ -136,10 +135,10 @@ function Contact() {
                             </li>
 
                             <li className={styles.table_row}>
-                                <label>내용</label>
+                                <label>{t("send_mail.row_5.label")}</label>
                                 <div className={styles.input_box}>
-                                    <input
-                                        placeholder='내용 정보 입력'
+                                    <textarea
+                                        placeholder={t("send_mail.row_5.placeholder")}
                                         value={inputContent}
                                         onChange={(e) => setInputContent(e.target.value)}
                                     />
@@ -157,7 +156,7 @@ function Contact() {
                             onClick={clickSendButton}
                         >
                             <Send />
-                            <span>문의하기</span>
+                            <span>{t("send_mail.button")}</span>
                         </div>
                     </button>
                 </div>                
@@ -167,10 +166,10 @@ function Contact() {
             {/* Location Section */}
             <section className={styles.location}>
                 <div className={styles.content_wrap}>
-                    <h2 className="heading-2">오시는 길</h2>
+                    <h2 className="heading-2">{t("location.title")}</h2>
 
                     <ul className={styles.info_wrap}>
-                        <li className={styles.address}>경기도 성남시 중원구 양현로 405번길 7 (여수동), 신야탑푸르지오시티2, 801호</li>
+                        <li className={styles.address}>{t("location.address")}</li>
                         <li>
                             <ul className={styles.contact_number}>
                                 <li>

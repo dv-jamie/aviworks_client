@@ -5,18 +5,22 @@ import LanguaeDetector from "i18next-browser-languagedetector";
 
 import HomeKo from "./ko/home.json";
 import ProductKo from "./ko/product.json";
+import ContactKo from "./ko/contact.json";
 
 import HomeEn from "./en/home.json";
 import ProductEn from "./en/product.json";
+import ContactEn from "./en/contact.json";
 
 const resources = {
   ko: {
     home: HomeKo,
-    product: ProductKo
+    product: ProductKo,
+    contact: ContactKo,
   },
   en: {
     home: HomeEn,
-    product: ProductEn
+    product: ProductEn,
+    contact: ContactEn,
   },
 };
 

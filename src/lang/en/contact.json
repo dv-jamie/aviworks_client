@@ -1,0 +1,33 @@
+{
+    "aviworks": "Aviworks",
+    "title": "Create an Innovation\nin the sports industry\nwith Aiviworks",
+    "send_mail": {
+        "title": "Business Partnership / Investment Proposal",
+        "row_1": {
+            "label": "Company",
+            "placeholder": "Aviworks"
+        },
+        "row_2": {
+            "label": "Name",
+            "placeholder": "manager John Doe"
+        },
+        "row_3": {
+            "label": "Phone number",
+            "placeholder": "000-0000-0000"
+        },
+        "row_4": {
+            "label": "E-mail",
+            "placeholder": "abc123@gmail.com"
+        },
+        "row_5": {
+            "label": "Content",
+            "placeholder": "Your message"
+        },
+        "button": "Contact us",
+        "alert": "Your mail has been sent successfully.\nWe will respond as soon as possible :)"
+    },
+    "location": {
+        "title": "Contact",
+        "address": "8F, 806, 7, Yanghyeon-ro 405beon-gil, Jungwon-gu, Seongnam-si, Gyeonggi-do, Republic of Korea"
+    }
+}
