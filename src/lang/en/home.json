@@ -52,8 +52,8 @@
         "board_1": {
             "title": "Autonomous Tracking/Driving Technology",
             "desc_1": "3D Vision, Lidar, Radar-based Golfer Tracking and Self-Following Technology",
-            "desc_2": "Precision motor control, network, and 5G/LTE integration Technology",
-            "desc_3": "AI-based Edge Device Technology (motion, face, gesture recognition)",
+            "desc_2": "Precision Motor Control, Network, and 5G/LTE Integration Technology",
+            "desc_3": "AI-based Edge Device Technology (Motion, Face, Gesture Recognition)",
             "desc_4": "Efficient Big Data Management Technology"
         },
         "board_2": {
