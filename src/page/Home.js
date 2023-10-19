@@ -25,10 +25,10 @@ function Home() {
             <section className={styles.mission}>
                 <div className={styles.content_wrap}>
                     <div className={styles.title_wrap}>
-                        <p className="heading-3">{t("misson.title")}</p>
+                        <p className="heading-3">{t("mission.title")}</p>
                         <h2>
                             <ul className={styles.keyword_wrap}>
-                                <li className="heading-1">좀 더 쉽게,</li>
+                                <li className="heading-1">{t("mission.keywords.keyword_1")}</li>
                                 <li className="heading-1">좀 더 즐겁게,</li>
                                 <li className="heading-1">좀 더 잘 할 수 있게,</li>
                             </ul>

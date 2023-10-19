@@ -1,11 +1,5 @@
 {
-    "test": {
-        "a": "테스트"
-    },
-    "button": {
-        "save": "save"
-    },
-    "misson": {
+    "mission": {
         "title": "모든 사람들이 스포츠를",
         "keywords": {
             "keyword_1": "좀 더 쉽게,",
