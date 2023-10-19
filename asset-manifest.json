@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aviworks_client/static/css/main.f8101446.css",
-    "main.js": "/aviworks_client/static/js/main.8125bd9e.js",
+    "main.css": "/aviworks_client/static/css/main.9e31ee0d.css",
+    "main.js": "/aviworks_client/static/js/main.823ad2da.js",
     "static/media/star.jpg": "/aviworks_client/static/media/star.542c52f475f4aeed25da.jpg",
     "static/media/basketball-peole.jpg": "/aviworks_client/static/media/basketball-peole.9db062a35144f860c53d.jpg",
     "static/media/golf-course.jpg": "/aviworks_client/static/media/golf-course.6bc7c77709e39ca102b1.jpg",
@@ -46,11 +46,11 @@
     "static/media/play.svg": "/aviworks_client/static/media/play.5e2691cb2635db658f456f4834903389.svg",
     "static/media/send.svg": "/aviworks_client/static/media/send.73714f27728bb31924c14716f60bcac3.svg",
     "static/media/arrow-down.svg": "/aviworks_client/static/media/arrow-down.3a9fb1443607e76a291ec6e8f4f2bc91.svg",
-    "main.f8101446.css.map": "/aviworks_client/static/css/main.f8101446.css.map",
-    "main.8125bd9e.js.map": "/aviworks_client/static/js/main.8125bd9e.js.map"
+    "main.9e31ee0d.css.map": "/aviworks_client/static/css/main.9e31ee0d.css.map",
+    "main.823ad2da.js.map": "/aviworks_client/static/js/main.823ad2da.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8101446.css",
-    "static/js/main.8125bd9e.js"
+    "static/css/main.9e31ee0d.css",
+    "static/js/main.823ad2da.js"
   ]
 }
