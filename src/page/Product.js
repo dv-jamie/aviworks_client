@@ -229,7 +229,10 @@ function Product() {
 
                             <div className={styles.button_wrap}>
                                 <button className={styles.button}>
-                                    <Link to="http://naver.me/5Ghyy6Wt" target="_blank">
+                                    <Link
+                                        to="https://mybox.naver.com/#/my/doc-viewer/Z3VuZGFtMmt8MzQ3MjUyNDk4MDI2NDE4MzExM3xGfDA/https%3A%2F%2Ffiles.mybox.naver.com%2FAiviworks%2FA-SCOUT_HE_flyer_1005.pdf%3Fuserid%3Dgundam2k%26useridx%3D50782964%26attachment%3D2%26NDriveSvcType%3DNHN%2FND-WEB%20Ver/ndrive?resourceKey=Z3VuZGFtMmt8MzQ3MjUyNDk4MDI5OTIwNjQ3MnxEfDA&downloadable=true&editable=true"
+                                        target="_blank"
+                                    >
                                         <div className={styles.button_content_wrap}>
                                             <Note />
                                             <span>{t("a_scout.summary.button_1")}</span>
@@ -237,7 +240,10 @@ function Product() {
                                     </Link>
                                 </button>
                                 <button className={styles.button}>
-                                    <Link to="http://naver.me/xjJeewVF" target="_blank">
+                                    <Link
+                                        to="https://mybox.naver.com/#/my/doc-viewer/Z3VuZGFtMmt8MzQ3MjUyNDk4MDI2NDE4ODQ4OHxGfDA/https%3A%2F%2Ffiles.mybox.naver.com%2FAiviworks%2FA-SCOUT_LE_flyer_1006.pdf%3Fuserid%3Dgundam2k%26useridx%3D50782964%26attachment%3D2%26NDriveSvcType%3DNHN%2FND-WEB%20Ver/ndrive?resourceKey=Z3VuZGFtMmt8MzQ3MjUyNDk4MDI5OTIwNjQ3MnxEfDA&downloadable=true&editable=true"
+                                        target="_blank"
+                                    >
                                         <div className={styles.button_content_wrap}>
                                             <Note />
                                             <span>{t("a_scout.summary.button_2")}</span>
