@@ -61,7 +61,7 @@ function Contact() {
         new window.google.maps.Marker({
             position,
             map: newMap,
-            title: t("aviworks"),
+            title: t("aiviworks"),
         });
     });
 

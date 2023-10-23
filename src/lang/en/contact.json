@@ -1,11 +1,11 @@
 {
-    "aviworks": "Aviworks",
+    "aiviworks": "Aiviworks",
     "title": "Create an Innovation\nin the sports industry\nwith Aiviworks",
     "send_mail": {
         "title": "Business Partnership / Investment Proposal",
         "row_1": {
             "label": "Company",
-            "placeholder": "Aviworks"
+            "placeholder": "Aiviworks"
         },
         "row_2": {
             "label": "Name",
